@@ -1,0 +1,14 @@
+id: OriginTech
+name: OriginTech
+depends: []
+pluginDepends:
+  - GuizhanLibPlugin
+  - InfinityExpansion
+version: release 1.0
+description:
+authors:
+  - playerocket
+repo:
+loadStartTexts:
+
+enabledTexts:
