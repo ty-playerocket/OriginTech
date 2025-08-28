@@ -1,0 +1,117 @@
+OriginTech:
+  lateInit: false
+  type: nested
+  item:
+    name: "&x&e&c&7&f&0&0起&x&e&e&9&e&0&7源&x&f&0&b&d&0&f工&x&f&2&d&c&1&6艺"
+    material: GRASS_BLOCK
+  tier: 0
+
+OriginTech_info:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-信息"
+    material: BOOK
+
+OriginTech_item1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-基础材料"
+    material: IRON_INGOT
+
+OriginTech_machine1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-基础机器"
+    material: furnace
+
+OriginTech_SCQ1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&a起源工艺-基础材料生成器"
+    material: campfire
+
+OriginTech_JC:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&b起源工艺-集成生产机器"
+    material: blast_furnace
+
+OriginTech_generators:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&b起源工艺-发电机"
+    material: glowstone
+
+OriginTech_SCQ2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级生成器"
+    material: blast_furnace
+    glow: true
+
+OriginTech_tools:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-工具"
+    material: diamond_pickaxe
+    glow: true
+
+OriginTech_item2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级材料"
+    material: diamond
+    glow: true
+
+OriginTech_machine2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级机器"
+    material: furnace
+    glow: true
+
+OriginTech_MOMO:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-乱码科技辅助"
+    material: chain_command_block
+    glow: true
+
+OT_test:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e测试品"
+    material: gray_stained_glass_pane
+
+
+groups45:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e"
+    material: gray_stained_glass_pane

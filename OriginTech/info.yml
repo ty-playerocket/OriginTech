@@ -1,0 +1,17 @@
+id: OriginTech
+name: OriginTech
+depends: []
+pluginDepends:
+  - GuizhanLibPlugin
+  - InfinityExpansion
+  - Networks
+version: Beta-1.0
+description:
+authors:
+  - playerocket
+repo: https://github.com/ty-playerocket/OriginTech
+loadStartTexts:
+  - '============================='
+  - '   起源工艺          开始加载   '
+  - '      作者:playerocket        '
+  - '============================='
