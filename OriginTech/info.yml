@@ -6,7 +6,7 @@ pluginDepends:
   - GuizhanLibPlugin
   - InfinityExpansion
   - Networks
-version: Beta-1.1
+version: Beta-1.2
 description:
 authors:
   - playerocket
@@ -15,4 +15,5 @@ loadStartTexts:
   - '============================='
   - '   起源工艺          开始加载   '
   - '      作者:playerocket        '
+
   - '============================='
