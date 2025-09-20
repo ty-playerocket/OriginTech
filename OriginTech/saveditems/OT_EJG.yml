@@ -9,8 +9,7 @@ item:
       "},{"bold":true,"color":"red","text":"厄"},{"bold":true,"text":" "},{"bold":true,"color":"blue","text":"劫"},{"bold":true,"text":"
       "},{"bold":true,"color":"light_purple","text":"镐 "},{"bold":true,"text":"-"}],"text":""}'
     lore:
-      - '{"text":"dnibwinddwad","color":"gold","italic":false,"obfuscated":true}","{"text":"用恶意的力量毁灭大地","color":"light_purple","italic":false},
-      {"text":"dnibwinddwad","color":"gold","italic":false,"obfuscated":true}'
+      - '{"text":"用恶意的力量毁灭大地","color":"gold","italic":false}'
     enchants:
       DIG_SPEED: 20
       LOOT_BONUS_BLOCKS: 10

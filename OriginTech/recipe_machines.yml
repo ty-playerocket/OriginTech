@@ -88,6 +88,18 @@ OT_LHRL:
           material_type: slimefun
           material: OT_YSD
           amount: 1
+    '3':
+      seconds: 4
+      input:
+        1:
+          material_type: mc
+          material: cyan_dye
+          amount: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_ZZ
+          amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
 OT_MCQGJ:
@@ -710,6 +722,66 @@ OT_LHJHZZ:
           material_type: slimefun
           material: OT_YJD
           amount: 1
+    '2':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: OT_WWM
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: OT_MBZ
+          amount: 1
+    '3':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: OT_KJSP
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: OT_ZZWD
+          amount: 1
+    '4':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: OT_SWZT
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: OT_CSZH
+          amount: 1
+    '5':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: OT_SCL
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: OT_Cogwork_Core
+          amount: 1
+    '6':
+      seconds: 10
+      input:
+        1:
+          material_type: slimefun
+          material: OT_NQCP
+          amount: 64
+      output:
+        1:
+          material_type: slimefun
+          material: OT_ZZXL
+          amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
 OT_GZTPHJ:
@@ -928,6 +1000,444 @@ OT_YSJPHJ:
         1:
           material_type: slimefun
           material: OT_SHDYSJ
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_MSPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l磨石破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: grindstone
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: oak_fence
+          amount: 1
+        2:
+          material_type: mc
+          material: dispenser
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDMS
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_SKJPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l碎矿机破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: lava_bucket
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: nether_brick_fence
+          amount: 1
+        2:
+          material_type: mc
+          material: dispenser
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDSKJ
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_MFGZTPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l魔法工作台破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: bookshelf
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: bookshelf
+          amount: 1
+        2:
+          material_type: mc
+          material: dispenser
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDMFGZT
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_GDJTPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l古代祭坛破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: enchanting_table
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: ANCIENT_ALTAR
+          amount: 1
+        2:
+          material_type: slimefun
+          material: ANCIENT_PEDESTAL
+          amount: 8
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDGDJT
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_ZZJPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l榨汁机破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: glass
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: glass
+          amount: 1
+        2:
+          material_type: mc
+          material: dispenser
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDZZJ
+          amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_KJDZTPHJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&5&l盔甲锻造台破坏机'
+    lore:
+      - '&7......?'
+      - '&7你就拿你的材料来干这个？'
+      - '&b 灵魂 机器'
+      - '&8⇨ &e⚡&7 4 J 可存储'
+      - '&8⇨ &e⚡&7 2 J/s'
+    material_type: mc
+    material: chipped_anvil
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: mc
+      material: anvil
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 4
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: anvil
+          amount: 1
+        2:
+          material_type: mc
+          material: dispenser
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_SHDKJDZT
           amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
@@ -1667,6 +2177,222 @@ OT_NYJQSJQ:
           amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_MFFWSCJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&d&l魔法符文生产机'
+    lore:
+      - '&7一体化制造各种魔法符文'
+      - '&e 耀金 机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
+    material_type: mc
+    material: bookshelf
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_LHRL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ANCIENT_ALTAR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+  capacity: 12000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: feather
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_AIR
+          amount: 3
+    '2':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: obsidian
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_EARTH
+          amount: 3
+    '3':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: blaze_powder
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_FIRE
+          amount: 3
+    '4':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: sand
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_WATER
+          amount: 3
+    '5':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: ender_pearl
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_ENDER
+          amount: 3
+    '6':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: iron_ingot
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_LIGHTNING
+          amount: 3
+    '7':
+      seconds: 6
+      input:
+        1:
+          material_type: mc
+          material: white_wool
+          amount: 3
+        2:
+          material_type: slimefun
+          material: BLANK_RUNE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_RAINBOW
+          amount: 3
+    '8':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: ESSENCE_OF_AFTERLIFE
+          amount: 3
+        2:
+          material_type: slimefun
+          material: ANCIENT_RUNE_ENDER
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_SOULBOUND
+          amount: 2
+    '9':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: MAGICAL_GLASS
+          amount: 4
+        2:
+          material_type: slimefun
+          material: ANCIENT_RUNE_LIGHTNING
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_ENCHANTMENT
+          amount: 3
+    '10':
+      seconds: 6
+      input:
+        1:
+          material_type: slimefun
+          material: STRANGE_NETHER_GOO
+          amount: 3
+        2:
+          material_type: slimefun
+          material: ANCIENT_RUNE_FIRE
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: ANCIENT_RUNE_VILLAGERS
+          amount: 3
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
 OT_HFYDMNQ:
   lateInit: false
   item_group: OriginTech_machine1
@@ -1862,8 +2588,8 @@ OT_JQRZPJ:
       - '&e 耀金 机器'
       - '&8⇨ &e⚡&7 12000 J 可存储'
       - '&8⇨ &e⚡&7 400 J/s'
-    material_type: slimefun
-    material: PROGRAMMABLE_ANDROID
+    material_type: mc
+    material: iron_block
   speed: 1
   recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
@@ -2046,6 +2772,110 @@ OT_DLBKSJ:
           material_type: slimefun
           material: ADVANCED_CIRCUIT_BOARD
           amount: 4
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_DJJ:
+  lateInit: false
+  item_group: OriginTech_machine1
+  item:
+    name: '&e&l镀金机'
+    lore:
+      - '&a为你的材料镀金'
+      - '&e 耀金 机器'
+      - '&8⇨ &e⚡&7 12000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
+    material_type: mc
+    material: gold_ore
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_YJD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_LHRL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_YSD
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_YJD
+      amount: 1
+  capacity: 12000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: carrot
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: golden_carrot
+          amount: 16
+    '2':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: apple
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: golden_apple
+          amount: 16
+    '3':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: melon_slice
+          amount: 16
+      output:
+        1:
+          material_type: mc
+          material: glistering_melon_slice
+          amount: 16
+    '4':
+      seconds: 2
+      input:
+        1:
+          material_type: mc
+          material: iron_ingot
+          amount: 16
+      output:
+        1:
+          material_type: slimefun
+          material: GOLD_24K
+          amount: 16
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
 OT_GAJHT:
@@ -2273,6 +3103,77 @@ OT_LMZZT:
         1:
           material_type: slimefun
           material: OT_YSWZMNQ2
+          amount: 1
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: slimefun
+          material: MOMOTECH_EMPTY_SHELL_GENERATOR
+          amount: 1
+      output:
+        1:
+          material_type: slimefun
+          material: OT_KMNQ
+          amount: 32
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+OT_YHKJ_G:
+  lateInit: false
+  item_group: OriginTech_MOMO
+  item:
+    name: '&a&l永恒矿机 改'
+    lore:
+      - '&7用空开采永恒粒子'
+      - '&7不需要再反复拆放机器了！'
+      - '&7需要使用起源之钥 - I启动，不消耗'
+      - '&4不支持堆叠'
+      - '&8⇨ &e⚡&7 2 J 可存储'
+      - '&8⇨ &e⚡&7 1 J/s'
+    material_type: mc
+    material: light_gray_stained_glass
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOMOTECH_ETERNAL_MINING_MACHINE
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_RHHJB1
+      amount: 1
+  capacity: 2
+  energyPerCraft: 1
+  recipes:
+    '1':
+      seconds: 75
+      input:
+        1:
+          material_type: slimefun
+          material: MOMOTECH_EMPTY_SHELL
+          amount: 64
+        2:
+          material_type: slimefun
+          material: OT_XKZ_MOMO
+          amount: 1
+          noConsume: true
+      output:
+        1:
+          material_type: slimefun
+          material: MOMOTECH_FOREVER
           amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
@@ -2519,8 +3420,8 @@ OT_嬗变台:
     lore:
       - '&7将一种物质转化成另一种物质'
       - '&x&6&e&0&0&f&9极&x&8&b&0&7&b&f限 &x&a&8&0&f&8&4机&x&c&5&1&6&4&a器'
-      - '&8⇨ &e⚡&7 6000000 J 可存储'
-      - '&8⇨ &e⚡&7 80000 J/s'
+      - '&8⇨ &e⚡&7 1,600,000,000 J 可存储'
+      - '&8⇨ &e⚡&7 800,000,000 J/s'
     material_type: mc
     material: sculk_shrieker
   speed: 1
@@ -2562,8 +3463,8 @@ OT_嬗变台:
       material_type: slimefun
       material: OT_EJD
       amount: 1
-  capacity: 6000000
-  energyPerCraft: 40000
+  capacity: 1600000000
+  energyPerCraft: 400000000
   recipes:
     '1':
       seconds: 60
@@ -2953,8 +3854,8 @@ OT_位面矿机:
           material_type: mc
           material: quartz
           amount: 64
-  input: [10,11,12,19,20,21,28,29,30,37,38,39]
-  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+  input: [ 4 ]
+  output: [ 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44 ]
 OT_无尽组装机:
   lateInit: false
   item_group: OriginTech_machine2
@@ -3119,3 +4020,380 @@ OT_无尽组装机:
           amount: 1
   input: [10,11,12,19,20,21,28,29,30,37,38,39]
   output: [14,15,16,23,24,25,32,33,34,41,42,43]
+#维度工艺
+OT_YMFSQ:
+  lateInit: false
+  item_group: OriginTech_SCQ_MC
+  item:
+    name: '&6&l原木发生器'
+    lore:
+      - '&7自动生产各种主世界原木'
+      - '&b 灵魂 机器 '
+      - '&8⇨ &e⚡&7 8000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
+    material_type: mc
+    material: oak_log
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_XJTK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_MBZ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_XJTK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: TREE_GROWTH_ACCELERATOR
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: TREE_GROWTH_ACCELERATOR
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_ZSJTK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: CROP_GROWTH_ACCELERATOR_2
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_ZSJTK
+      amount: 1
+  capacity: 8000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: oak_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: oak_log
+          amount: 32
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: spruce_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: spruce_log
+          amount: 32
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: birch_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: birch_log
+          amount: 32
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: jungle_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: jungle_log
+          amount: 32
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: acacia_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: acacia_log
+          amount: 32
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: dark_oak_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: dark_oak_log
+          amount: 32
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: cherry_log
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: cherry_log
+          amount: 32
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: crimson_stem
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: crimson_stem
+          amount: 32
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: warped_stem
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: warped_stem
+          amount: 32
+  input: [4]
+  output: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]
+OT_ZGY:
+  lateInit: false
+  item_group: OriginTech_SCQ_MC
+  item:
+    name: '&e&l织光仪'
+    lore:
+      - '&7能制造一些闪闪发光的东西'
+      - '&b 灵魂 机器 '
+      - '&8⇨ &e⚡&7 8000 J 可存储'
+      - '&8⇨ &e⚡&7 400 J/s'
+    material_type: mc
+    material: glowstone
+  speed: 1
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_XJTK
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_ZZWD
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_XJTK
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_ZSJTK
+      amount: 1
+    8:
+      material_type: slimefun
+      material: MAGIC_SUGAR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_ZSJTK
+      amount: 1
+  capacity: 8000
+  energyPerCraft: 200
+  recipes:
+    '1':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: glowstone_dust
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: glowstone_dust
+          amount: 32
+    '2':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: glowstone
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: glowstone
+          amount: 8
+    '3':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: torch
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: torch
+          amount: 32
+    '4':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: soul_torch
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: soul_torch
+          amount: 32
+    '5':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: redstone_lamp
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: redstone_lamp
+          amount: 8
+    '6':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: shroomlight
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: shroomlight
+          amount: 32
+    '7':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: light
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: light
+          amount: 32
+    '8':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: lantern
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: lantern
+          amount: 32
+    '9':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: soul_lantern
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: soul_lantern
+          amount: 32
+    '10':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: sea_lantern
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: sea_lantern
+          amount: 32
+    '11':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: pearlescent_froglight
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: pearlescent_froglight
+          amount: 32
+    '12':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: verdant_froglight
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: verdant_froglight
+          amount: 32
+    '13':
+      seconds: 1
+      input:
+        1:
+          material_type: mc
+          material: ochre_froglight
+          amount: 1
+      output:
+        1:
+          material_type: mc
+          material: ochre_froglight
+          amount: 32
+  input: [4]
+  output: [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44]

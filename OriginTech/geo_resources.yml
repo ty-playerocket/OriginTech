@@ -13,3 +13,18 @@ OT_QYGK:
   obtain_from_geo_miner: true
   supply:
     normal: 1
+OT_XC:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&e&a&d&b&e&a黯&x&b&8&a&c&b&8淡&x&8&6&7&e&8&6的&x&5&4&5&0&5&4星&x&2&2&2&1&2&2尘'
+    lore:
+      - '&7它来自何方？'
+    material_type: mc
+    material: nether_star
+  max_deviation: 1
+  geo_name: '&x&e&a&d&b&e&a黯&x&b&8&a&c&b&8淡&x&8&6&7&e&8&6的&x&5&4&5&0&5&4星&x&2&2&2&1&2&2尘'
+  recipe_type: GEO_MINER
+  obtain_from_geo_miner: true
+  supply:
+    normal: 1

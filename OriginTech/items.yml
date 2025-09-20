@@ -21,15 +21,48 @@ OriginTech_info2:
     name: '&a&l起源工艺 - 版本'
     lore:
       - "&e作者:playerocket"
-      - "&e- 版本号: indev 1.0"
+      - "&e- 版本号: Beta 1.1"
     material_type: mc
     material: PAPER
     amount: 1
   placeable: false
   recipe_type: 'NULL'
-OT_FGX:
+OT_ZZ:
   lateInit: false
   item_group: OriginTech_info
+  item:
+    name: '&x&0&b&f&f&5&ep&x&0&a&f&f&6&7l&x&0&9&f&f&6&fa&x&0&8&f&f&7&8y&x&0&7&f&f&8&0e&x&0&6&f&f&8&9r&x&0&5&f&f&9&1o&x&0&4&f&f&9&ac&x&0&3&f&f&a&2k&x&0&2&f&f&a&be&x&0&1&f&f&b&3t'
+    lore:
+      - "&e这是起源工艺作者"
+    material_type: skull_hash
+    material: 2e8c4f29e4c4eab71def1267b71af2d6a4bf83a6649852a068115832225c626
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHRL
+OT_MOMO:
+  lateInit: false
+  item_group: OriginTech_MOMO
+  item:
+    name: '&b&l注意事项'
+    lore:
+      - "&e该分区为乱码相关的机器"
+      - '&e空模拟器配方中含有方块放置器，若该物品已禁用，可在乱码组装台中合成'
+      - "&e此分区会持续更新"
+    material_type: mc
+    material: bedrock
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+OT_FGX:
+  lateInit: false
+  item_group: OT_test
   item:
     name: '&7后面的是提示类物品，无实际作用'
     lore:
@@ -125,14 +158,67 @@ OT_EJG:
     material: OT_EJG
     amount: 1
   placeable: false
-  recipe_type: 'NULL'
+  recipe_type: ENHANCED_CRAFTING_TABLE
   recipe:
+    1:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
     2:
       material_type: slimefun
-      material: OT_PFTS
+      material: OT_KCXKZ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
+    5:
+      material_type: mc
+      material: diamond_pickaxe
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
+OT_QXJ:
+  lateInit: false
+  item_group: OriginTech_tools
+  item:
+    material_type: saveditem
+    material: OT_QXJ
+    amount: 1
+  script: 装备/窃心剑
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_CXHX
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
     5:
       material_type: slimefun
-      material: OT_GZTPHJ
+      material: BLADE_OF_VAMPIRES
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 1
 #以下是正式物品
 OT_SHDZQXGZT:
   lateInit: false
@@ -141,7 +227,7 @@ OT_SHDZQXGZT:
     name: '&7损坏的增强型工作台'
     lore:
       - '&6不是哥们，你真是吃饱了撑的'
-    glow: true
+    glow: false
     material_type: slimefun
     material: ENHANCED_CRAFTING_TABLE
     amount: 1
@@ -162,9 +248,9 @@ OT_SHDYLL:
     lore:
       - '&6为了不让它在工作中突然爆炸，我决定不让你使用它'
       - '&7当然，这都是你自己干的'
-    glow: true
-    material_type: slimefun
-    material: SMELTERY
+    glow: false
+    material_type: mc
+    material: blast_furnace
     amount: 1
   placeable: false
   recipe_type: 'NULL'
@@ -182,7 +268,7 @@ OT_SHDYSJ:
     name: '&7损坏的压缩机'
     lore:
       - '&6把它砸了对你有什么好处吗？'
-    glow: true
+    glow: false
     material_type: slimefun
     material: COMPRESSOR
     amount: 1
@@ -195,6 +281,126 @@ OT_SHDYSJ:
     5:
       material_type: slimefun
       material: OT_YSJPHJ
+OT_SHDMS:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的磨石'
+    lore:
+      - '&6把一块磨石变成了一块石头'
+    glow: false
+    material_type: slimefun
+    material: GRIND_STONE
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_MSPHJ
+OT_SHDSKJ:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的碎矿机'
+    lore:
+      - '&6变成了一摊废品'
+    glow: false
+    material_type: slimefun
+    material: ORE_CRUSHER
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_SKJPHJ
+OT_SHDMFGZT:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的魔法工作台'
+    lore:
+      - '&6它现在由一大堆废纸和碎木屑组成'
+    glow: false
+    material_type: slimefun
+    material: MAGIC_WORKBENCH
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_MFGZTPHJ
+OT_SHDGDJT:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的古代祭坛'
+    lore:
+      - '&6失去了魔力的支撑，它现在只是一块没用的石头'
+    glow: false
+    material_type: slimefun
+    material: ANCIENT_ALTAR
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_GDJTPHJ
+OT_SHDZZJ:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的榨汁机'
+    lore:
+      - '&6当心玻璃扎手！'
+    glow: false
+    material_type: slimefun
+    material: JUICER
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_ZZJPHJ
+OT_SHDKJDZT:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&7损坏的盔甲锻造台'
+    lore:
+      - '&6连这么难破坏的东西都让你毁了，你没别的事情可做了吗？'
+    glow: false
+    material_type: slimefun
+    material: ARMOR_FORGE
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_KJDZTPHJ
 OT_HG:
   lateInit: false
   item_group: OriginTech_item1
@@ -460,7 +666,860 @@ OT_YJJQKJ:
     5:
       material_type: slimefun
       material: OT_JSJGJ
+OT_ZSJTK:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&0&b&f&f&5&e主&x&0&9&f&f&7&3世&x&0&6&f&f&8&9界&x&0&4&f&f&9&e团&x&0&1&f&f&b&3块'
+    lore:
+      - '&7沾染了主世界气息的物质团'
+    glow: true
+    material_type: mc
+    material: grass_block
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: grass_block
+      amount: 1
+    2:
+      material_type: mc
+      material: podzol
+      amount: 1
+    3:
+      material_type: mc
+      material: mycelium
+      amount: 1
+    4:
+      material_type: mc
+      material: stone
+      amount: 1
+    5:
+      material_type: mc
+      material: honeycomb_block
+      amount: 1
+    6:
+      material_type: mc
+      material: stone
+      amount: 1
+    7:
+      material_type: mc
+      material: mycelium
+      amount: 1
+    8:
+      material_type: mc
+      material: podzol
+      amount: 1
+    9:
+      material_type: mc
+      material: grass_block
+      amount: 1
+OT_XJTK:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&f&f&0&b&9&d下&x&f&2&1&1&7&2界&x&e&5&1&6&4&7团&x&d&8&1&c&1&c块'
+    lore:
+      - '&7沾染了下界气息的物质团'
+    glow: true
+    material_type: mc
+    material: netherite_scrap
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: crimson_nylium
+      amount: 1
+    2:
+      material_type: mc
+      material: warped_nylium
+      amount: 1
+    3:
+      material_type: mc
+      material: polished_blackstone_bricks
+      amount: 1
+    4:
+      material_type: mc
+      material: nether_bricks
+      amount: 1
+    5:
+      material_type: mc
+      material: nether_star
+      amount: 1
+    6:
+      material_type: mc
+      material: nether_bricks
+      amount: 1
+    7:
+      material_type: mc
+      material: polished_blackstone_bricks
+      amount: 1
+    8:
+      material_type: mc
+      material: warped_nylium
+      amount: 1
+    9:
+      material_type: mc
+      material: crimson_nylium
+      amount: 1
+OT_ZJTK:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&9&4&0&b&f&f终&x&a&b&1&1&e&c界&x&c&1&1&6&d&8团&x&d&8&1&c&c&5块'
+    lore:
+      - '&7来自遥远之界的神秘物质'
+    glow: true
+    material_type: mc
+    material: chorus_flower
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: end_stone
+      amount: 1
+    2:
+      material_type: mc
+      material: warped_nylium
+      amount: 1
+    3:
+      material_type: mc
+      material: ender_eye
+      amount: 1
+    4:
+      material_type: mc
+      material: shulker_shell
+      amount: 1
+    5:
+      material_type: mc
+      material: dragon_egg
+      amount: 1
+    6:
+      material_type: mc
+      material: shulker_shell
+      amount: 1
+    7:
+      material_type: mc
+      material: ender_eye
+      amount: 1
+    8:
+      material_type: mc
+      material: warped_nylium
+      amount: 1
+    9:
+      material_type: mc
+      material: end_stone
+      amount: 1
+OT_WWM:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&6万物木'
+    lore:
+      - '&7融合之木'
+    glow: true
+    material_type: mc
+    material: oak_log
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: oak_log
+      amount: 1
+    2:
+      material_type: mc
+      material: spruce_log
+      amount: 1
+    3:
+      material_type: mc
+      material: birch_log
+      amount: 1
+    4:
+      material_type: mc
+      material: jungle_log
+      amount: 1
+    5:
+      material_type: mc
+      material: acacia_log
+      amount: 1
+    6:
+      material_type: mc
+      material: dark_oak_log
+      amount: 1
+    7:
+      material_type: mc
+      material: cherry_log
+      amount: 1
+    8:
+      material_type: mc
+      material: crimson_stem
+      amount: 1
+    9:
+      material_type: mc
+      material: warped_stem
+      amount: 1
+OT_KJSP:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&b空间碎片'
+    lore:
+      - '&7人为创造的奇异材料'
+      - '&6等会你不会是RFTools里的那个空间碎片吧？'
+    glow: true
+    material_type: mc
+    material: prismarine_shard
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: diamond
+      amount: 1
+    2:
+      material_type: mc
+      material: emerald
+      amount: 1
+    3:
+      material_type: mc
+      material: gold_ingot
+      amount: 1
+    4:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    5:
+      material_type: mc
+      material: redstone
+      amount: 1
+    6:
+      material_type: mc
+      material: glowstone
+      amount: 1
+    7:
+      material_type: mc
+      material: quartz
+      amount: 1
+    8:
+      material_type: mc
+      material: prismarine_shard
+      amount: 1
+    9:
+      material_type: mc
+      material: glass
+      amount: 1
+OT_SWZT:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&c生物质团'
+    lore:
+      - '&7由被打败的敌人的尸体混合而成'
+      - '&6等会你不会是RFTools里的那个空间碎片吧？'
+    glow: true
+    material_type: mc
+    material: rotten_flesh
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: rotten_flesh
+      amount: 1
+    2:
+      material_type: mc
+      material: bone
+      amount: 1
+    3:
+      material_type: mc
+      material: spider_eye
+      amount: 1
+    4:
+      material_type: mc
+      material: gunpowder
+      amount: 1
+    5:
+      material_type: mc
+      material: slime_ball
+      amount: 1
+    6:
+      material_type: mc
+      material: blaze_rod
+      amount: 1
+    7:
+      material_type: mc
+      material: ghast_tear
+      amount: 1
+    8:
+      material_type: mc
+      material: ender_pearl
+      amount: 1
+    9:
+      material_type: mc
+      material: shulker_shell
+      amount: 1
+OT_SCL:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&e圣齿轮'
+    lore:
+      - '&7高速运转的齿轮会伤害到接触到它的生物'
+      - '&7你可能知道我说的是什么，不知道也没关系的，因为它不能被放置在你的存档里的任何一个地方'
+    glow: true
+    material_type: mc
+    material: redstone_torch
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: redstone
+      amount: 1
+    2:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    3:
+      material_type: mc
+      material: redstone
+      amount: 1
+    4:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    5:
+      material_type: mc
+      material: iron_nugget
+      amount: 1
+    6:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    7:
+      material_type: mc
+      material: redstone
+      amount: 1
+    8:
+      material_type: mc
+      material: iron_ingot
+      amount: 1
+    9:
+      material_type: mc
+      material: redstone
+      amount: 1
+OT_NQCP:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&d扭曲唱片'
+    lore:
+      - '&7极致压缩的唱片'
+    glow: true
+    material_type: mc
+    material: MUSIC_DISC_11
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: mc
+      material: MUSIC_DISC_13
+      amount: 1
+    2:
+      material_type: mc
+      material: MUSIC_DISC_11
+      amount: 1
+    3:
+      material_type: mc
+      material: MUSIC_DISC_13
+      amount: 1
+    4:
+      material_type: mc
+      material: MUSIC_DISC_11
+      amount: 1
+    5:
+      material_type: mc
+      material: jukebox
+      amount: 1
+    6:
+      material_type: mc
+      material: MUSIC_DISC_11
+      amount: 1
+    7:
+      material_type: mc
+      material: MUSIC_DISC_13
+      amount: 1
+    8:
+      material_type: mc
+      material: MUSIC_DISC_11
+      amount: 1
+    9:
+      material_type: mc
+      material: MUSIC_DISC_13
+      amount: 1
+OT_MBZ:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&x&f&c&8&d&0&a木&x&e&5&7&4&0&9本&x&c&d&5&a&0&8质'
+    lore:
+      - '&6将无数的原木凝练成这样一小块物质'
+    glow: true
+    material_type: mc
+    material: gold_nugget
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHJHZZ
+OT_ZZWD:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&x&b&8&e&a&d&5掌&x&a&3&e&d&8&e中&x&8&e&e&f&4&7维&x&7&9&f&2&0&0度'
+    lore:
+      - '&6像是在手中托着一个世界'
+    glow: true
+    material_type: mc
+    material: grass_block
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHJHZZ
+OT_CSZH:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&x&8&1&1&8&e&a超&x&a&5&1&0&e&d生&x&c&9&0&8&e&f之&x&e&d&0&0&f&2核'
+    lore:
+      - '&6为了它，你需要屠戮多少生物？'
+    glow: true
+    material_type: mc
+    material: skeleton_skull
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHJHZZ
+OT_Cogwork_Core:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&x&e&3&3&9&0&4机&x&e&6&6&4&0&5枢&x&e&9&8&e&0&5核&x&e&c&b&9&0&6心'
+    lore:
+      - '&6嗯......嗯？'
+    glow: true
+    material_type: mc
+    material: redstone_block
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHJHZZ
+OT_ZZXL:
+  lateInit: false
+  item_group: OriginTech_item1
+  item:
+    name: '&x&5&e&0&0&f&6诅&x&4&3&0&8&f&4咒&x&2&9&0&f&f&2旋&x&0&e&1&7&f&0律'
+    lore:
+      - '&6令人不寒而栗，毛骨悚然'
+    glow: true
+    material_type: mc
+    material: note_block
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_LHJHZZ
 #进阶级材料
+OT_ZQXGZT_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 增强型工作台'
+    lore:
+      - '&7将工作台破坏后压缩重组'
+    glow: true
+    material_type: slimefun
+    material: ENHANCED_CRAFTING_TABLE
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+      material_type: slimefun
+      material: OT_SHDZQXGZT
+      amount: 64
+OT_YLL_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 冶炼炉'
+    lore:
+      - '&7将冶炼炉破坏后压缩重组'
+    glow: true
+    material_type: mc
+    material: blast_furnace
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDYLL
+      amount: 64
+OT_YSJ_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 压缩机'
+    lore:
+      - '&7用压缩机来压缩压缩机？听上去有些荒谬'
+    glow: true
+    material_type: slimefun
+    material: COMPRESSOR
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDYSJ
+      amount: 64
+OT_MS_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 磨石'
+    lore:
+      - '&7这看起来像一块二重压缩圆石'
+    glow: true
+    material_type: slimefun
+    material: GRIND_STONE
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDMS
+      amount: 64
+OT_SKJ_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 碎矿机'
+    lore:
+      - '&7将碎矿机压缩后重组'
+    glow: true
+    material_type: slimefun
+    material: ORE_CRUSHER
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDSKJ
+      amount: 64
+OT_MFGZT_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 魔法工作台'
+    lore:
+      - '&7或许可以成为一块结实的板材'
+    glow: true
+    material_type: slimefun
+    material: MAGIC_WORKBENCH
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDMFGZT
+      amount: 64
+OT_GDJT_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 古代祭坛'
+    lore:
+      - '&7将古代祭坛压缩后重组'
+      - '&7基座什么的已经融合进去了'
+    glow: true
+    material_type: slimefun
+    material: ANCIENT_ALTAR
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDGDJT
+      amount: 64
+OT_ZZJ_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 榨汁机'
+    lore:
+      - '&7压缩成了糟糕的形状......'
+    glow: true
+    material_type: slimefun
+    material: JUICER
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDYSJ
+      amount: 64
+OT_KJDZT_YS:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&7压缩 - 盔甲锻造台'
+    lore:
+      - '&7像一座小山一样沉重'
+    glow: true
+    material_type: slimefun
+    material: ARMOR_FORGE
+    amount: 1
+  placeable: false
+  recipe_type: COMPRESSOR
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_SHDYSJ
+      amount: 64
+OT_YSYS_6:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&f&l六重压缩圆石'
+    material_type: mc
+    material: polished_andesite
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    2:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    3:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    4:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    5:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    6:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    7:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+    9:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 1
+OT_YSYS_7:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&f&l七重压缩圆石'
+    material_type: mc
+    material: polished_andesite
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_YSYS_6
+      amount: 1
+OT_YSYS_8:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&f&l八重压缩圆石'
+    material_type: mc
+    material: polished_andesite
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_YSYS_7
+      amount: 1
+OT_YSYS_9:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&f&l九重压缩圆石'
+    material_type: mc
+    material: polished_andesite
+    amount: 1
+  placeable: true
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_YSYS_8
+      amount: 1
 OT_BLCP:
   lateInit: false
   item_group: OriginTech_item2
@@ -837,3 +1896,484 @@ OT_RHHJB2:
       material_type: slimefun
       material: OT_EJD
       amount: 1
+#杂项物品
+OT_XKZ_MOMO:
+  lateInit: false
+  item_group: OriginTech_MOMO
+  item:
+    name: '&d起源之钥 - I'
+    lore:
+      - '&f用于启动本附属乱码分区的部分机器'
+    glow: true
+    material_type: mc
+    material: chain
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_QYGK
+      amount: 1
+    5:
+      material_type: slimefun
+      material: MOMOTECH_EMPTY_SHELL
+      amount: 1
+#终极材料
+OT_合成概念:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&1&5&f&e&e&2合&x&1&2&f&9&c&7成&x&1&0&f&4&a&b概&x&0&d&e&f&9&0念'
+    lore:
+      - '&e这是玩家独有的力量'
+    glow: true
+    material_type: mc
+    material: crafting_table
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_ZQXGZT_YS
+      amount: 64
+    2:
+      material_type: slimefun
+      material: OT_YLL_YS
+      amount: 64
+    3:
+      material_type: slimefun
+      material: OT_YSJ_YS
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_MS_YS
+      amount: 64
+    5:
+      material_type: slimefun
+      material: OT_SKJ_YS
+      amount: 64
+    6:
+      material_type: slimefun
+      material: OT_MFGZT_YS
+      amount: 64
+    7:
+      material_type: slimefun
+      material: OT_GDJT_YS
+      amount: 64
+    8:
+      material_type: slimefun
+      material: OT_ZZJ_YS
+      amount: 64
+    9:
+      material_type: slimefun
+      material: OT_KJDZT_YS
+      amount: 64
+OT_维度立方:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&f&f&0&0&0&0维&x&a&e&0&0&0&0度&x&5&e&0&1&0&1立&x&0&d&0&1&0&1方'
+    lore:
+      - '&e世界在你的力量下屈服'
+    glow: true
+    material_type: mc
+    material: coal_block
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 64
+    2:
+      material_type: slimefun
+      material: OT_YSD
+      amount: 64
+    3:
+      material_type: slimefun
+      material: OT_YJD
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_HYD
+      amount: 64
+    5:
+      material_type: slimefun
+      material: INFINITY_SINGULARITY
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_GCD
+      amount: 64
+    7:
+      material_type: slimefun
+      material: OT_EJD
+      amount: 64
+    8:
+      material_type: slimefun
+      material: VOID_INGOT
+      amount: 64
+    9:
+      material_type: slimefun
+      material: INFINITY_INGOT
+      amount: 64
+OT_零械主脑:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&0&0&2&9&f&f零&x&3&1&2&1&f&0械&x&6&1&1&a&e&2主&x&9&2&1&2&d&3脑'
+    lore:
+      - '&e最为超然的机械造物'
+    glow: true
+    material_type: mc
+    material: command_block
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 64
+    2:
+      material_type: slimefun
+      material: OT_QHGJ
+      amount: 64
+    3:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 64
+    4:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CORE
+      amount: 16
+    5:
+      material_type: slimefun
+      material: INFINITE_MACHINE_CIRCUIT
+      amount: 16
+    6:
+      material_type: slimefun
+      material: REINFORCED_STRAINER
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_JXJQKJ
+      amount: 16
+    8:
+      material_type: slimefun
+      material: OT_CXHX
+      amount: 16
+    9:
+      material_type: slimefun
+      material: OT_RHHJB2
+      amount: 16
+OT_无缺星尘:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&f&b&1&8&f&b无&x&e&6&1&8&f&4缺&x&d&2&1&9&e&d星&x&b&d&1&9&e&6尘'
+    lore:
+      - '&d最为完美的艺术品，出自大师之手'
+    glow: true
+    material_type: mc
+    material: nether_star
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: FORTUNE_SINGULARITY
+      amount: 64
+    2:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 64
+    3:
+      material_type: slimefun
+      material: EARTH_SINGULARITY
+      amount: 64
+    4:
+      material_type: slimefun
+      material: MAGIC_SINGULARITY
+      amount: 64
+    5:
+      material_type: slimefun
+      material: OT_XC
+      amount: 1
+    6:
+      material_type: slimefun
+      material: METAL_SINGULARITY
+      amount: 64
+    7:
+      material_type: slimefun
+      material: END_ESSENCE
+      amount: 64
+    8:
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+      amount: 64
+    9:
+      material_type: slimefun
+      material: OT_RHHJB2
+      amount: 16
+OT_不屈意志:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&4&e&6&3&6&c不&x&4&7&7&f&8&a屈&x&3&f&9&a&a&7意&x&3&8&b&6&c&5志'
+    lore:
+      - '&b就像你脚下踏着的坚实大地'
+    glow: true
+    material_type: mc
+    material: bedrock
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: FORTUNE_SINGULARITY
+      amount: 64
+    2:
+      material_type: slimefun
+      material: COMPRESSED_COBBLESTONE_5
+      amount: 64
+    3:
+      material_type: slimefun
+      material: EARTH_SINGULARITY
+      amount: 64
+    4:
+      material_type: slimefun
+      material: MAGIC_SINGULARITY
+      amount: 64
+    5:
+      material_type: slimefun
+      material: OT_YSYS_9
+      amount: 1
+    6:
+      material_type: slimefun
+      material: METAL_SINGULARITY
+      amount: 64
+    7:
+      material_type: slimefun
+      material: END_ESSENCE
+      amount: 64
+    8:
+      material_type: slimefun
+      material: ESSENCE_OF_AFTERLIFE
+      amount: 64
+    9:
+      material_type: slimefun
+      material: OT_RHHJB2
+      amount: 16
+OT_奇迹物质:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&0&9&f&f&f&f奇&x&0&7&f&f&c&d迹&x&0&5&f&f&9&a物&x&0&3&f&f&6&8资'
+    lore:
+      - '&x&d&9&a&f&d&9无&x&d&2&b&4&d&a所&x&c&a&b&8&d&b定&x&c&3&b&d&d&c型&x&b&c&c&2&d&d，&x&b&4&c&6&d&d但&x&a&d&c&b&d&e潜&x&a&6&d&0&d&f力&x&9&e&d&4&e&0无&x&9&7&d&9&e&1限'
+    glow: true
+    material_type: mc
+    material: prismarine_crystals
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_MBZ
+      amount: 64
+    2:
+      material_type: slimefun
+      material: OT_ZZWD
+      amount: 64
+    3:
+      material_type: slimefun
+      material: OT_CSZH
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_ZSJTK
+      amount: 64
+    5:
+      material_type: slimefun
+      material: OT_ZZ
+      amount: 64
+    6:
+      material_type: slimefun
+      material: OT_XJTK
+      amount: 64
+    7:
+      material_type: slimefun
+      material: OT_ZZXL
+      amount: 64
+    8:
+      material_type: slimefun
+      material: OT_ZJTK
+      amount: 64
+    9:
+      material_type: slimefun
+      material: OT_Cogwork_Core
+      amount: 64
+OT_飞仙之心:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&f&f&f&5&0&a飞&x&f&9&d&f&0&f仙&x&f&3&c&8&1&4之&x&e&d&b&2&1&9心'
+    lore:
+      - '&f你身旁的空气将你托得很高很高'
+    glow: true
+    material_type: mc
+    material: firework_rocket
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: ELYTRA_SCALE
+      amount: 64
+    2:
+      material_type: slimefun
+      material: ELYTRA_SCALE
+      amount: 64
+    3:
+      material_type: slimefun
+      material: ELYTRA_SCALE
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_GCD
+      amount: 32
+    5:
+      material_type: mc
+      material: elytra
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HYD
+      amount: 32
+    7:
+      material_type: slimefun
+      material: OT_ZMXKSJZ1
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_ZMXKSJZ1
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_ZMXKSJZ1
+      amount: 1
+OT_元灵心核:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&f&f&f&5&0&a元&x&b&2&f&2&4&5灵&x&6&6&f&0&7&f心&x&1&9&e&d&b&a核'
+    lore:
+      - '&e'
+    glow: true
+    material_type: mc
+    material: diamond
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: MAGICAL_ZOMBIE_PILLS
+      amount: 64
+    2:
+      material_type: slimefun
+      material: LAVA_CRYSTAL
+      amount: 64
+    3:
+      material_type: slimefun
+      material: ELYTRA_SCALE
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_WWM
+      amount: 64
+    5:
+      material_type: slimefun
+      material: ANCIENT_RUNE_SOULBOUND
+      amount: 64
+    6:
+      material_type: slimefun
+      material: OT_SWZT
+      amount: 64
+    7:
+      material_type: slimefun
+      material: STRANGE_NETHER_GOO
+      amount: 64
+    8:
+      material_type: slimefun
+      material: RAINBOW_LEATHER
+      amount: 64
+    9:
+      material_type: slimefun
+      material: EMPTY_DATA_CARD
+      amount: 1
+OT_起源锭:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&c&c&f&f&0&0- &x&d&4&f&b&0&2起 &x&d&c&f&8&0&4源 &x&e&4&f&4&0&5锭 &x&e&c&f&0&0&7-'
+    lore:
+      - '&x&f&f&7&a&0&0-&x&f&e&7&c&0&1-&x&f&c&7&f&0&2-&x&f&b&8&1&0&3-&x&f&9&8&4&0&4-&x&f&8&8&6&0&5-&x&f&7&8&9&0&6-&x&f&5&8&b&0&6-&x&f&4&8&d&0&7-&x&f&3&9&0&0&8-&x&f&1&9&2&0&9-
+    &x&f&0&9&5&0&a-&x&e&e&9&7&0&b-&x&e&d&9&9&0&c-&x&e&c&9&c&0&d-&x&e&a&9&e&0&e-&x&e&9&a&1&0&f-&x&e&7&a&3&1&0-&x&e&6&a&6&1&1-&x&e&5&a&8&1&1-&x&e&3&a&a&1&2-&x&e&2&a&d&1&3-
+    &x&e&0&a&f&1&4-&x&d&f&b&2&1&5-&x&d&e&b&4&1&6-&x&d&c&b&6&1&7-&x&d&b&b&9&1&8-&x&d&a&b&b&1&9-&x&d&8&b&e&1&a-&x&d&7&c&0&1&b-&x&d&5&c&3&1&c-&x&d&4&c&5&1&c-&x&d&3&c&7&1&d-
+    &x&d&1&c&a&1&e-&x&d&0&c&c&1&f-&x&c&e&c&f&2&0-&x&c&d&d&1&2&1-'
+      - '&x&f&f&7&a&0&0只&x&f&9&8&4&0&4存&x&f&4&8&d&0&7在&x&e&e&9&7&0&b于&x&e&9&a&1&0&f神&x&e&3&a&a&1&2话&x&d&e&b&4&1&6中&x&d&8&b&e&1&a的&x&d&3&c&7&1&d黄&x&c&d&d&1&2&1金'
+      - '&x&f&f&7&a&0&0-&x&f&e&7&c&0&1-&x&f&c&7&f&0&2-&x&f&b&8&1&0&3-&x&f&9&8&4&0&4-&x&f&8&8&6&0&5-&x&f&7&8&9&0&6-&x&f&5&8&b&0&6-&x&f&4&8&d&0&7-&x&f&3&9&0&0&8-&x&f&1&9&2&0&9-
+    &x&f&0&9&5&0&a-&x&e&e&9&7&0&b-&x&e&d&9&9&0&c-&x&e&c&9&c&0&d-&x&e&a&9&e&0&e-&x&e&9&a&1&0&f-&x&e&7&a&3&1&0-&x&e&6&a&6&1&1-&x&e&5&a&8&1&1-&x&e&3&a&a&1&2-&x&e&2&a&d&1&3-
+    &x&e&0&a&f&1&4-&x&d&f&b&2&1&5-&x&d&e&b&4&1&6-&x&d&c&b&6&1&7-&x&d&b&b&9&1&8-&x&d&a&b&b&1&9-&x&d&8&b&e&1&a-&x&d&7&c&0&1&b-&x&d&5&c&3&1&c-&x&d&4&c&5&1&c-&x&d&3&c&7&1&d-
+    &x&d&1&c&a&1&e-&x&d&0&c&c&1&f-&x&c&e&c&f&2&0-&x&c&d&d&1&2&1-'
+    glow: true
+    material_type: mc
+    material: gold_ingot
+  placeable: false
+  recipe_type: SMELTERY
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_合成概念
+      amount: 64
+    2:
+      material_type: slimefun
+      material: OT_维度立方
+      amount: 64
+    3:
+      material_type: slimefun
+      material: OT_零械主脑
+      amount: 64
+    4:
+      material_type: slimefun
+      material: OT_无缺星尘
+      amount: 64
+    5:
+      material_type: slimefun
+      material: OT_QYGK
+      amount: 64
+    6:
+      material_type: slimefun
+      material: OT_不屈意志
+      amount: 64
+    7:
+      material_type: slimefun
+      material: OT_奇迹物质
+      amount: 64
+    8:
+      material_type: slimefun
+      material: OT_飞仙之心
+      amount: 64
+    9:
+      material_type: slimefun
+      material: OT_元灵心核
+      amount: 64

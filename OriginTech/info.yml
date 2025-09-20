@@ -1,11 +1,12 @@
 id: OriginTech
 name: OriginTech
 depends: []
+scriptListener: 监听
 pluginDepends:
   - GuizhanLibPlugin
   - InfinityExpansion
   - Networks
-version: Beta-1.0
+version: Beta-1.1
 description:
 authors:
   - playerocket

@@ -334,6 +334,294 @@ OT_YSJPHJ:
     45-53:
       material: gray_stained_glass_pane
       name: '&a'
+OT_MSPHJ:
+  title: '&5&l磨石破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_SKJPHJ:
+  title: '&5&l碎矿机破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_MFGZTPHJ:
+  title: '&5&l魔法工作台破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_GDJPHJ:
+  title: '&5&l古代祭坛破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_ZZJPHJ:
+  title: '&5&l榨汁机破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_KJDZTPHJ:
+  title: '&5&l盔甲锻造台破坏机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
 OT_SZSCQ:
   title: '&9砂质生成器'
   slots:
@@ -691,6 +979,54 @@ OT_HFYDMNQ:
     45-53:
       material: gray_stained_glass_pane
       name: '&a'
+OT_MFFWSCJ:
+  title: '&d&l魔法符文生产机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
 OT_HCJZPJ:
   title: '&b&l合成机装配机'
   slots:
@@ -741,6 +1077,54 @@ OT_HCJZPJ:
       name: '&a'
 OT_JQRZPJ:
   title: '&b&l机器人装配机'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: FLINT_AND_STEEL
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_DJJ:
+  title: '&e&l镀金机'
   slots:
     0-8:
       name: "&a"
@@ -1030,46 +1414,22 @@ OT_坍缩机:
 OT_位面矿机:
   title: '&x&e&1&b&c&d&5位&x&e&4&c&a&d&9面&x&e&6&d&8&d&d矿&x&e&9&e&6&e&1机'
   slots:
-    0-8:
+    0-3:
       name: "&a"
       material: gray_stained_glass_pane
-    9:
+    5-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9-12:
       material: light_blue_stained_glass_pane
       name: '&a'
     13:
-      material: gray_stained_glass_pane
-      name: '&a'
-    17:
-      material: orange_stained_glass_pane
-      name: '&a'
-    18:
-      material: light_blue_stained_glass_pane
-      name: '&a'
-    22:
       material: black_stained_glass_pane
       name: '&a'
       progressbar: true
       progressBarItem:
         material: beacon
-    26:
-      material: orange_stained_glass_pane
-      name: '&a'
-    27:
-      material: light_blue_stained_glass_pane
-      name: '&a'
-    31:
-      material: gray_stained_glass_pane
-      name: '&a'
-    35:
-      material: orange_stained_glass_pane
-      name: '&a'
-    36:
-      material: light_blue_stained_glass_pane
-      name: '&a'
-    40:
-      material: gray_stained_glass_pane
-      name: '&a'
-    44:
+    14-17:
       material: orange_stained_glass_pane
       name: '&a'
     45-53:
@@ -1123,9 +1483,79 @@ OT_无尽组装机:
     45-53:
       material: gray_stained_glass_pane
       name: '&a'
+#下方是维度工艺
+OT_YMFSQ:
+  title: '&6&l原木生成器'
+  slots:
+    0-3:
+      name: "&a"
+      material: gray_stained_glass_pane
+    5-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9-12:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: beacon
+    14-17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_ZGY:
+  title: '&e&l织光仪'
+  slots:
+    0-3:
+      name: "&a"
+      material: gray_stained_glass_pane
+    5-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9-12:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: beacon
+    14-17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
 #下方是乱码相关
 OT_KMNQ:
   title: '&7&l空模拟器'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_KMNQ_2:
+  title: '&7&l空模拟器 II'
   slots:
     0-3:
       material: gray_stained_glass_pane
@@ -1208,8 +1638,77 @@ OT_YSWZMNQ2:
     45-53:
       material: gray_stained_glass_pane
       name: '&a'
+OT_BKKKSCQ:
+  title: '&f&l不可控空生成器'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
 OT_LMZZT:
   title: '&a&l乱码组装台'
+  slots:
+    0-8:
+      name: "&a"
+      material: gray_stained_glass_pane
+    9:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    13:
+      material: gray_stained_glass_pane
+      name: '&a'
+    17:
+      material: orange_stained_glass_pane
+      name: '&a'
+    18:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    22:
+      material: black_stained_glass_pane
+      name: '&a'
+      progressbar: true
+      progressBarItem:
+        material: beacon
+    26:
+      material: orange_stained_glass_pane
+      name: '&a'
+    27:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    31:
+      material: gray_stained_glass_pane
+      name: '&a'
+    35:
+      material: orange_stained_glass_pane
+      name: '&a'
+    36:
+      material: light_blue_stained_glass_pane
+      name: '&a'
+    40:
+      material: gray_stained_glass_pane
+      name: '&a'
+    44:
+      material: orange_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_YHKJ_G:
+  title: '&a&l永恒矿机 改'
   slots:
     0-8:
       name: "&a"
@@ -1259,6 +1758,90 @@ OT_LMZZT:
 #下方是生成器
 OT_KFSCQ:
   title: '&7矿粉生成器'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_ZSJ:
+  title: '&7造石机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_ZSJ_2:
+  title: '&7耀金造石机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_ZSJ_3:
+  title: '&7极限造石机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_KBFWSCQ:
+  title: '&7&l空白符文生成器'
   slots:
     0-3:
       material: gray_stained_glass_pane
@@ -2188,4 +2771,88 @@ OT_WMKJ_S:
     45-53:
       material: gray_stained_glass_pane
       name: '&a'
-
+#下方是起源级机器
+OT_机器人生成器:
+  title: '&x&0&0&f&f&e&0机&x&0&2&f&a&c&c器&x&0&5&f&4&b&7人&x&0&7&e&f&a&3生&x&0&9&e&9&8&e成&x&0&b&e&3&7&a器 &x&0&e&d&e&6&5- &x&1&0&d&9&5&1起&x&1&2&d&3&3&c源'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_模块化生产机IV:
+  title: '&x&f&e&8&9&0&0起&x&f&a&9&5&1&6源  &x&f&6&a&0&2&b模&x&f&2&a&c&4&1块&x&e&d&b&7&5&6化&x&e&9&c&3&6&c生&x&e&5&c&e&8&1产&x&e&1&d&a&9&7机'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_昼夜仪:
+  title: '&x&f&e&8&9&0&0起&x&d&c&6&b&3&d源  &x&b&a&4&e&7&b昼&x&9&8&3&0&b&8夜&x&7&6&1&2&f&5仪'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
+OT_裂变反应堆:
+  title: '&x&0&2&b&0&f&e起&x&0&2&b&d&f&9源 &x&0&1&c&a&f&4裂&x&0&1&d&8&e&f变&x&0&1&e&5&e&a反&x&0&0&f&2&e&5应&x&0&0&f&f&e&0堆'
+  slots:
+    0-3:
+      material: gray_stained_glass_pane
+      name: '&a'
+    4:
+      name: '&f提示'
+      material_type: mc
+      material: BIRCH_SIGN
+      lore:
+        - '&7下方为输出槽'
+    5-12:
+      material: gray_stained_glass_pane
+      name: '&a'
+    14-17:
+      material: gray_stained_glass_pane
+      name: '&a'
+    45-53:
+      material: gray_stained_glass_pane
+      name: '&a'
