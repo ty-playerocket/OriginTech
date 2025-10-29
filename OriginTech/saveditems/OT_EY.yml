@@ -1,0 +1,33 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"-     恶 意      -","color":"red","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"攻击时，若目标的生命值不足一半，则本次攻击伤害增加25%","color":"yellow","italic":false}'
+    - '{"text":"“按下右键发动技能，对附近的所有目标造成最大生命值50%的伤害（不超过自身最大生命值的500%）”","color":"yellow","italic":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 6
+      MENDING: 1
+      DAMAGE_ALL: 7
+      DURABILITY: 114
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 32.0
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.3
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 2
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgSspgAAAeiTfxFAAAAA==

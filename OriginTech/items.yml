@@ -55,6 +55,8 @@ OT_MOMO:
       - "&e该分区为乱码相关的机器"
       - '&e空模拟器配方中含有方块放置器，若该物品已禁用，可在乱码组装台中合成'
       - "&e此分区会持续更新"
+      - '&c所有需要起源之钥的机器在放入堆叠机后均会消耗起源之钥，不建议放入堆叠机'
+      - '&c起源之钥这一设计是刻意为之'
     material_type: mc
     material: bedrock
     amount: 1
@@ -218,6 +220,41 @@ OT_QXJ:
     6:
       material_type: slimefun
       material: OT_EJD
+      amount: 1
+OT_EY:
+  lateInit: false
+  item_group: OriginTech_tools
+  item:
+    material_type: saveditem
+    material: OT_EY
+    amount: 1
+  script: 装备/恶意
+  placeable: false
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_起源锭
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_QXJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_起源锭
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_起源锭
+      amount: 1
+    5:
+      material_type: slimefun
+      material: BLADE_OF_VAMPIRES
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_起源锭
       amount: 1
 #以下是正式物品
 OT_SHDZQXGZT:
