@@ -6,6 +6,7 @@ OriginTech_info:
     lore:
       - '&7这是一个没有什么特色的附属'
       - '&7写这个附属的初衷是创造一些有用的机器，能简化一些材料的生产线'
+      - '&7但现在嘛......你可以在其中看到一大堆成分复杂的东西'
       - '&7作者并不怎么会设计一个好的流程，因此你可能会看到一些无厘头的配方，以及一些似乎只是凑数用的材料'
       - '&7总之，希望这个附属能为你的发展提供一些帮助'
       - '&7祝你游戏愉快'
@@ -1557,6 +1558,30 @@ OT_YSYS_9:
       material_type: slimefun
       material: OT_YSYS_8
       amount: 1
+OT_CNGYBD:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&7&1&f&6&8&6超&x&5&f&e&9&9&4能&x&4&d&d&c&a&2硅&x&3&b&c&f&b&0岩&x&2&9&c&1&b&e爆&x&1&7&b&4&c&c弹'
+    lore:
+      - '&e它只是个材料......'
+      - '&7&o似乎在本家也只是个材料（'
+      - '&7所以配方里的超能硅岩在什么地方？'
+    glow: true
+    material_type: mc
+    material: black_concrete
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_起源聚合装置
+      amount: 1
 OT_BLCP:
   lateInit: false
   item_group: OriginTech_item2
@@ -1623,6 +1648,46 @@ OT_KNSP:
     6:
       material_type: slimefun
       material: OT_QMSJZ
+OT_HXHJSP:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&7&b&7&1&f&6回&x&8&5&5&6&e&f响&x&8&f&3&b&e&8合&x&9&9&2&0&e&1金&x&a&3&0&5&d&a碎片'
+    lore:
+      - '&7从深谙之域里寻来的奇珍'
+    glow: true
+    material_type: mc
+    material: netherite_scrap
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_YNAYZM
+OT_HXHJD:
+  lateInit: false
+  item_group: OriginTech_item2
+  item:
+    name: '&x&7&b&7&1&f&6回&x&8&5&5&6&e&f响&x&8&f&3&b&e&8合&x&9&9&2&0&e&1金&x&a&3&0&5&d&a锭'
+    lore:
+      - '&7远古文明的造物'
+    glow: true
+    material_type: mc
+    material: nether_brick
+    amount: 1
+  placeable: false
+  recipe_type: 'NULL'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+    5:
+      material_type: slimefun
+      material: OT_寒渊凝聚台
 OT_HYD:
   lateInit: false
   item_group: OriginTech_item2
@@ -1956,7 +2021,47 @@ OT_XKZ_MOMO:
       material_type: slimefun
       material: MOMOTECH_EMPTY_SHELL
       amount: 1
+OT_YSK:
+  lateInit: false
+  item_group: OriginTech_MOMO
+  item:
+    name: '&d压缩 - 空'
+    lore:
+      - '&f将一组空压缩为一个'
+    glow: true
+    material_type: mc
+    material: structure_void
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    1:
+      material_type: slimefun
+      material: MOMOTECH_EMPTY_SHELL
+      amount: 64
 #终极材料
+OT_超维度空间立方:
+  lateInit: false
+  item_group: OriginTech_item3
+  item:
+    name: '&x&7&1&f&6&8&6超&x&5&f&e&9&9&4维&x&4&d&d&c&a&2度&x&3&b&c&f&b&0空&x&2&9&c&1&b&e间&x&1&7&b&4&c&c立&x&0&5&a&7&d&a方'
+    lore:
+      - '&e用以解放某些物品的潜力'
+    glow: true
+    material_type: mc
+    material: nether_star
+    amount: 1
+  placeable: false
+  recipe_type: 'ENHANCED_CRAFTING_TABLE'
+  recipe:
+    2:
+      material_type: slimefun
+      material: OT_PFTS
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_起源聚合装置
+      amount: 1
 OT_合成概念:
   lateInit: false
   item_group: OriginTech_item3
@@ -2313,7 +2418,7 @@ OT_元灵心核:
   item:
     name: '&x&f&f&f&5&0&a元&x&b&2&f&2&4&5灵&x&6&6&f&0&7&f心&x&1&9&e&d&b&a核'
     lore:
-      - '&e'
+      - '&e我将还你生命的奇迹'
     glow: true
     material_type: mc
     material: diamond

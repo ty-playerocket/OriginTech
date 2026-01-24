@@ -5,10 +5,9 @@ item:
   meta:
     ==: ItemMeta
     meta-type: UNSPECIFIC
-    display-name: '[{"text":"-     恶 意      -","color":"red","italic":false,"bold":true}]'
+    display-name: '[{"text":"-     恶 意      -(测试物品)","color":"red","italic":false,"bold":true}]'
     lore:
-    - '{"text":"攻击时，若目标的生命值不足一半，则本次攻击伤害增加25%","color":"yellow","italic":false}'
-    - '{"text":"“按下右键发动技能，对附近的所有目标造成最大生命值50%的伤害（不超过自身最大生命值的500%）”","color":"yellow","italic":false}'
+    - '{"text":"攻击时，你有25%的概率额外造成50%伤害","color":"yellow","italic":false}'
     enchants:
       LOOT_BONUS_MOBS: 6
       MENDING: 1
@@ -17,7 +16,7 @@ item:
     attribute-modifiers:
       GENERIC_ATTACK_DAMAGE:
       - ==: org.bukkit.attribute.AttributeModifier
-        amount: 32.0
+        amount: 64.0
         name: '5'
         slot: HAND
         uuid: 00000002-0000-0001-0000-000100000008
