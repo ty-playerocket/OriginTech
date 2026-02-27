@@ -1,0 +1,60 @@
+OT_GJB:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&l&a瓜聚变'
+    lore:
+      - '&b经典永流传......'
+      - '&a家里缺电了？要不你就拿这个西瓜去发电吧！'
+      - '&8⇨ &e⚡&7 2000000 J 可存储'
+      - '&8⇨ &e⚡&7 1443800 J/s'
+    material_type: mc
+    material: melon
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REFINERY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COMBUSTION_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+  capacity: 2000000
+  production: 721900
+  fuels:
+    '1':
+      seconds: 14
+      item:
+        material: melon
+        amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]

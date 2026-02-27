@@ -1,0 +1,41 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3456
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"text":"-"},{"text":"
+      "},{"bold":true,"color":"red","text":"窃"},{"bold":true,"text":" "},{"bold":true,"color":"blue","text":"心"},{"bold":true,"text":"
+      "},{"bold":true,"color":"light_purple","text":"剑 "},{"bold":true,"text":"-"}],"text":""}'
+    lore:
+      - '{"text":"造成伤害后，回复玩家本次造成伤害的8%的血量","color":"gold","italic":false}'
+      - '{"text":"若玩家血量为满，则额外获得4点护盾，不可叠加","color":"gold","italic":false}'
+      - '{"text":"手持时，增加30%最终移速加成","color":"gold","italic":false}'
+    enchants:
+
+      smite: 5
+      looting: 4
+    attribute-modifiers:
+      generic_attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.4
+          name: ''
+          slot: HAND
+          uuid: 72f9a894-44d4-4aec-b84c-bbdde5fe37c9
+          operation: 0
+      generic_attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 26.0
+          name: ''
+          slot: HAND
+          uuid: 375ed3f5-c578-4fa4-9f36-69961c92cb63
+          operation: 0
+      generic_movement_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.3
+          name: ''
+          slot: HAND
+          uuid: 375edaf5-c578-6fa4-9f36-69961c92cb63
+          operation: 2
+    Unbreakable: true

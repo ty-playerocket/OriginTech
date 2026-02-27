@@ -1,0 +1,112 @@
+LENGSHANG_XX_GZTPHJ:
+  lateInit: false
+  name: '&5&l工作台破坏机'
+  lore:
+    - '&7此物品需要在 &5&l工作台破坏机 &7中制作'
+  material_type: mc
+  material: CHIPPED_ANVIL
+LENGSHANG_XX_LHRL:
+  lateInit: false
+  name: '&b&l灵魂熔炉'
+  lore:
+    - '&7此物品需要在 &b&l灵魂熔炉 &7中制作'
+  material_type: mc
+  material: FURNACE
+LENGSHANG_XX_SMWZSJQ:
+  lateInit: false
+  name: '&7生命物质收集器'
+  lore:
+    - '&7此物品需要在 &7生命物质收集器 &7中制作'
+  material_type: mc
+  material: MOSS_BLOCK
+LENGSHANG_XX_JSJGJ:
+  lateInit: false
+  name: '&3&l金属加工机'
+  lore:
+    - '&7此物品需要在 &3&l金属加工机 &7中制作'
+  material_type: mc
+  material: IRON_BLOCK
+LENGSHANG_XX_LHJHZZ:
+  lateInit: false
+  name: '&f&l灵魂聚合装置'
+  lore:
+    - '&7此物品需要在 &f&l灵魂聚合装置 &7中制作'
+  material_type: mc
+  material: ENCHANTING_TABLE
+LENGSHANG_XX_QYJHZZ:
+  lateInit: false
+  name: '&e&l起源聚合装置'
+  lore:
+    - '&7此物品需要在 &e&l起源聚合装置 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_SYKCZ:
+  lateInit: false
+  name: '&8&l深渊开采者'
+  lore:
+    - '&7此物品需要在 &8&l深渊开采者 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_QMSJZ:
+  lateInit: false
+  name: '&6&l启明收集者'
+  lore:
+    - '&7此物品需要在 &6&l启明收集者 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_YNAYZM:
+  lateInit: false
+  name: '&b&l幽匿暗域之门'
+  lore:
+    - '&7此物品需要在 &b&l幽匿暗域之门 &7中制作'
+  material_type: mc
+  material: SCULK_SHRIEKER
+LENGSHANG_XX_HYNJT:
+  lateInit: false
+  name: '&8&l寒渊凝聚台'
+  lore:
+    - '&7此物品需要在 &8&l寒渊凝聚台 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_GAJHT:
+  lateInit: false
+  name: '&a&l光暗聚合台'
+  lore:
+    - '&7此物品需要在 &a&l光暗聚合台 &7中制作'
+  material_type: mc
+  material: BEACON
+LENGSHANG_XX_LMZZT:
+  lateInit: false
+  name: '&a&l乱码组装台'
+  lore:
+    - '&7此物品需要在 &a&l乱码组装台 &7中制作'
+  material_type: mc
+  material: CRAFTING_TABLE
+OT_XX_DLBKSJ:
+  lateInit: false
+  name: '&b&l电路板刻蚀机'
+  lore:
+    - '&7此物品需要在 &b&l电路板刻蚀机 &7中制作'
+  material_type: skull_hash
+  material: 7ef9e286fcd0b289d96a10443bda188cb05096de7985a3e788a1068c9cc02c39
+OT_XX_DYHDZL:
+  lateInit: false
+  name: '&c&l地狱火锻造炉'
+  lore:
+    - '&7此物品需要在 &c&l地狱火锻造炉 &7中制作'
+  material_type: mc
+  material: respawn_anchor
+OT_XX_HMZY:
+  lateInit: false
+  name: '&x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼'
+  lore:
+    - '&7此物品需要在 &x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼 &7中制作'
+  material_type: mc
+  material: blue_glazed_terracotta
+OT_XX_WJZZ:
+  lateInit: false
+  name: '&x&1&0&e&f&8&4无&x&0&d&d&9&9&e尽&x&0&a&c&3&b&7组&x&0&6&a&d&d&1装'
+  lore:
+    - '&7此物品需要在 &x&1&0&e&f&8&4无&x&0&d&d&9&9&e尽&x&0&a&c&3&b&7组&x&0&6&a&d&d&1装&x&0&3&9&7&e&a机 &7中制作'
+  material_type: mc
+  material: crying_obsidian
