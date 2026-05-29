@@ -1,3 +1,0 @@
-function onEntityDamageByEntity(event) {
-
-}
