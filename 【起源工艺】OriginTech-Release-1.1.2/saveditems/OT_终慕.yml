@@ -1,0 +1,17 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: NETHERITE_CHESTPLATE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"终慕","color":"gold","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"为你的旅途画上句号","color":"gray","italic":false}'
+    - '{"text":"暂时没有特殊能力","color":"gray","italic":false}'
+    enchants:
+      PROTECTION_ENVIRONMENTAL: 10
+      MENDING: 1
+      DURABILITY: 10
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgSspgAAAeiTfxFAAAAA==

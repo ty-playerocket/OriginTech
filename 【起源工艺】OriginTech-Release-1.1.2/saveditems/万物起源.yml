@@ -1,0 +1,34 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: BLAZE_ROD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"万物起源","color":"green","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"半成品","color":"yellow","italic":false}'
+    - '{"text":"右键发射能够穿透敌怪的射弹","color":"yellow","italic":false}'
+    - '{"text":"挑战线专属","color":"yellow","italic":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 10
+      MENDING: 1
+      DAMAGE_ALL: 10
+      DURABILITY: 5
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.4
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.5
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 2
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgjgp3YwAAt1YXqRUAAAA=

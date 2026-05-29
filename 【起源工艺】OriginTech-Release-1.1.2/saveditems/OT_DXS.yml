@@ -1,0 +1,28 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3456
+  type: WOODEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"italic":false,"extra":[{"text":""},{"bold":true,"text":"-"},{"text":"
+      "},{"bold":true,"color":"red","text":"读},{"bold":true,"text":" "},{"bold":true,"color":"light_purple","text":"心"},{"bold":true,"text":"
+      "},{"bold":true,"color":"dark_purple","text":"术 "},{"bold":true,"text":"-"}],"text":""}'
+    lore:
+      - '{"text":"未实现","color":"gold","italic":false}'
+    attribute-modifiers:
+      generic_attack_speed:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -2.4
+          name: ''
+          slot: HAND
+          uuid: 72f9a894-44d4-4aec-b84c-bbdde5fe37c9
+          operation: 0
+      generic_attack_damage:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: -0.9
+          name: ''
+          slot: HAND
+          uuid: 375ed3f5-c578-4fa4-9f36-69961c92cb63
+          operation: 2
+    Unbreakable: true

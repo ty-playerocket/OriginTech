@@ -1,0 +1,25 @@
+  item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: WOODEN_HOE
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"手杖","color":"blue","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"用这个能让你跑快点，或者飞快点","color":"green"}'
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.3
+        name: '5'
+        slot: OFF_HAND
+        uuid: 00000004-0000-0001-0000-000100000001
+        operation: 1
+      GENERIC_FLYING_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 1.5
+        name: '2'
+        slot: OFF_HAND
+        uuid: 00000699-0000-05fe-0000-007b000011d1
+        operation: 1

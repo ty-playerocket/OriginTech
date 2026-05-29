@@ -1,0 +1,32 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"-     恶 意      -","color":"red","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"攻击时，你有25%的概率额外造成50%伤害","color":"yellow","italic":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 6
+      MENDING: 1
+      DAMAGE_ALL: 7
+      DURABILITY: 114
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 64.0
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: -0.3
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 2
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgSspgAAAeiTfxFAAAAA==

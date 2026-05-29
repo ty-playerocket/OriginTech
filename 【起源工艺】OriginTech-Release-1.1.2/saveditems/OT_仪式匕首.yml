@@ -1,0 +1,24 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"仪式匕首","color":"red","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"右键献祭自身的生命力换取血液","color":"white","italic":false}'
+    - '{"text":"你也可以用它来攻击敌人，但无法获取血液","color":"white","italic":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 3
+      DAMAGE_ALL: 3
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 12.0
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgqSxOKmYAAPhHzAgWAAAA
