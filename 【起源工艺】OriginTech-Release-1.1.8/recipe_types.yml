@@ -1,0 +1,205 @@
+OT_XX_YSBS:
+  lateInit: false
+  name: '&c仪式匕首'
+  lore:
+    - '&7通过仪式匕首消耗生命力以获得'
+  material_type: mc
+  material: CHIPPED_ANVIL
+LENGSHANG_XX_GZTPHJ:
+  lateInit: false
+  name: '&5&l拆家模拟器'
+  lore:
+    - '&7此物品需要在 &5&l拆家模拟器 &7中制作'
+  material_type: mc
+  material: CHIPPED_ANVIL
+LENGSHANG_XX_LHRL:
+  lateInit: false
+  name: '&b&l灵魂熔炉'
+  lore:
+    - '&7此物品需要在 &b&l灵魂熔炉 &7中制作'
+  material_type: mc
+  material: FURNACE
+LENGSHANG_XX_SMWZSJQ:
+  lateInit: false
+  name: '&7生命物质收集器'
+  lore:
+    - '&7此物品需要在 &7生命物质收集器 &7中制作'
+  material_type: mc
+  material: MOSS_BLOCK
+LENGSHANG_XX_JSJGJ:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&8金属加工'
+  material_type: mc
+  material: IRON_BLOCK
+LENGSHANG_XX_LHJHZZ:
+  lateInit: false
+  name: '&f&l灵魂聚合装置'
+  lore:
+    - '&7此物品需要在 &f&l灵魂聚合装置 &7中制作'
+  material_type: mc
+  material: ENCHANTING_TABLE
+LENGSHANG_XX_QYJHZZ:
+  lateInit: false
+  name: '&e&l起源聚合装置'
+  lore:
+    - '&7此物品需要在 &e&l起源聚合装置 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_SYKCZ:
+  lateInit: false
+  name: '&8&l深渊开采者'
+  lore:
+    - '&7此物品需要在 &8&l深渊开采者 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_QMSJZ:
+  lateInit: false
+  name: '&6&l启明收集者'
+  lore:
+    - '&7此物品需要在 &6&l启明收集者 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_YNAYZM:
+  lateInit: false
+  name: '&b&l幽匿暗域之门'
+  lore:
+    - '&7此物品需要在 &b&l幽匿暗域之门 &7中制作'
+  material_type: mc
+  material: SCULK_SHRIEKER
+LENGSHANG_XX_HYNJT:
+  lateInit: false
+  name: '&8&l寒渊凝聚台'
+  lore:
+    - '&7此物品需要在 &8&l寒渊凝聚台 &7中制作'
+  material_type: mc
+  material: RESPAWN_ANCHOR
+LENGSHANG_XX_GAJHT:
+  lateInit: false
+  name: '&a&l光暗聚合台'
+  lore:
+    - '&7此物品需要在 &a&l光暗聚合台 &7中制作'
+  material_type: mc
+  material: BEACON
+LENGSHANG_XX_LMZZT:
+  lateInit: false
+  name: '&a&l乱码组装台'
+  lore:
+    - '&7此物品需要在 &a&l乱码组装台 &7中制作'
+  material_type: mc
+  material: CRAFTING_TABLE
+OT_XX_DLBKSJ:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&6电路刻蚀'
+  material_type: skull_hash
+  material: 7ef9e286fcd0b289d96a10443bda188cb05096de7985a3e788a1068c9cc02c39
+OT_XX_DYHDZL:
+  lateInit: false
+  name: '&c&l地狱火锻造炉'
+  lore:
+    - '&7此物品需要在 &c&l地狱火锻造炉 &7中制作'
+  material_type: mc
+  material: respawn_anchor
+OT_XX_HMZY:
+  lateInit: false
+  name: '&x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼'
+  lore:
+    - '&7此物品需要在 &x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼 &7中制作'
+  material_type: mc
+  material: blue_glazed_terracotta
+OT_XX_WJZZ:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&9&6&1&c&f&6无&x&7&b&2&9&f&2尽&x&6&1&3&6&e&d组&x&4&6&4&3&e&9装'
+  material_type: mc
+  material: crying_obsidian
+OT_XX_DZF:
+  lateInit: false
+  name: '&a&l锻造坊'
+  lore:
+    - '&7此物品需要在 &a&l锻造坊 &7中制作'
+  material_type: mc
+  material: anvil
+OT_XX_HOMO:
+  lateInit: false
+  name: '&x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼'
+  lore:
+    - '&7此物品需要在 &x&f&f&f&f&f&c鸿&x&a&a&d&b&f&d蒙&x&5&5&b&8&f&e之&x&0&0&9&4&f&f眼 &7中获取'
+  material_type: mc
+  material: blue_glazed_terracotta
+OT_XX_HWZZ:
+  lateInit: false
+  name: '&f&l宏伟之铸'
+  lore:
+    - '&7此物品需要在 &f&l宏伟之铸 &7中获取'
+  material_type: skull_hash
+  material: 3968e84c5e2bd6cd1d4abcbb19bc45a9e6a4baa8af437e94e59c60704b2de943
+OT_XX_WXGXT:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&f&0&4&d&1&b五&x&e&9&e&0&0&9彩&x&1&4&e&0&9&7观&x&0&f&7&4&b&e星'
+  material_type: skull_hash
+  material: 94e2b92c7228fe6911aa598bc7ec403172ab98855dfcc17a1ea68a4f004fe5bc
+OT_XX_FXSSL:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&d&9&a&f&d&9反&x&c&9&b&a&d&b现&x&b&8&c&4&d&d实&x&a&8&c&f&d&f撕&x&9&7&d&9&e&1裂'
+  material_type: skull_hash
+  material: 7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+OT_XX_FXSGZ:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&d&9&a&f&d&9反&x&c&9&b&a&d&b逻&x&b&8&c&4&d&d辑&x&a&8&c&f&d&f创&x&9&7&d&9&e&1造'
+  material_type: skull_hash
+  material: 7b7c9b6a23f21cca2b362b85b36dece3d8389e363014defe5b92ff6ee64f1ae
+OT_XX_CREATE:
+  lateInit: false
+  name: '&x&3&2&7&e&9&f创&x&2&b&9&4&9&c造&x&2&4&a&a&9&9聚&x&1&c&c&1&9&5合&x&1&5&d&7&9&2装&x&0&e&e&d&8&f置'
+  lore:
+    - '&c&o皇天后土共鉴之路'
+  material_type: skull_hash
+  material: 1d8fabf9d1e9521fc93ddc6ddace8c0a5d771960415c607596e209f34724113a
+#挑战线
+OT_XX_DTL:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&f&0&1&2&1&2恒&x&e&b&3&e&4&9星&x&e&6&6&b&7&f熔&x&e&1&9&7&b&6炼'
+  material_type: skull_hash
+  material: 9086bb2fd386c85aaa2810cd2f4bb404d9fd29e33a0f30beaeed9f8849734807
+OT_XX_YSZS:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&5&9&f&0&1&2超&x&6&e&e&b&5&1凡&x&8&2&e&6&9&0构&x&9&7&e&1&c&f造'
+  material_type: skull_hash
+  material: 1d8fabf9d1e9521fc93ddc6ddace8c0a5d771960415c607596e209f34724113a
+OT_XX_HDBZZ:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&9&c&1&2&f&0混&x&a&5&3&e&e&b沌&x&a&f&6&b&e&6编&x&b&8&9&7&e&1织'
+  material_type: skull_hash
+  material: 9086bb2fd386c85aaa2810cd2f4bb404d9fd29e33a0f30beaeed9f8849734807
+OT_XX_ZSZDL:
+  lateInit: false
+  name: '&b合成该物品所需配方类型为'
+  lore:
+    - '&x&f&0&9&7&1&2万&x&e&b&a&d&3&e物&x&e&6&c&4&6&b归&x&e&1&d&a&9&7一'
+  material_type: skull_hash
+  material: 9086bb2fd386c85aaa2810cd2f4bb404d9fd29e33a0f30beaeed9f8849734807
+#未实现
+OT_XX_VOID:
+  lateInit: false
+  name: '&b暂无获取方式哦~'
+  lore:
+    - '&a目前仅作者测试用'
+  material_type: skull_hash
+  material: 2e8c4f29e4c4eab71def1267b71af2d6a4bf83a6649852a068115832225c626

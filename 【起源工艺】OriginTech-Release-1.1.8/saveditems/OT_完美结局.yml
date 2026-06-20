@@ -1,0 +1,34 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"完美结局","color":"red","italic":false,"bold":true}]'
+    lore:
+    - '{"text":"为你的旅途画上句号","color":"yellow","italic":false}'
+    - '{"text":"右键发射一道跟随视线的射弹，对沿途的目标造成100点伤害","color":"yellow","italic":false}'
+    - '{"text":"已加入重做计划","color":"red","italic":false}'
+    enchants:
+      LOOT_BONUS_MOBS: 10
+      MENDING: 1
+      DAMAGE_ALL: 10
+      DURABILITY: 5
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 40.0
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.8
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 2
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRg84iMCojyYgAAANVp1xgAAAA=

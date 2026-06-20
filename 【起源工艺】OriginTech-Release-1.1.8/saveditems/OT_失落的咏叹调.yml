@@ -1,0 +1,29 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: ''
+    lore:
+    enchants:
+      LOOT_BONUS_MOBS: 10
+      DAMAGE_ALL: 20
+    attribute-modifiers:
+      GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 40
+          name: '5'
+          slot: HAND
+          uuid: 00007002-0000-0001-0000-000100004200
+          operation: 0
+      GENERIC_MAX_HEALTH:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 0.15
+          name: '6'
+          slot: OFF_HAND
+          uuid: 00000002-0000-0001-0000-000105000008
+          operation: 1
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgqSxOKmYAAPhHzAgWAAAA

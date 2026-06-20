@@ -1,0 +1,306 @@
+OriginTech:
+  lateInit: false
+  type: nested
+  item:
+    name: "&x&e&c&7&f&0&0起&x&e&e&9&e&0&7源&x&f&0&b&d&0&f工&x&f&2&d&c&1&6艺"
+    material: GRASS_BLOCK
+  tier: 0
+
+OriginTech_info:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-信息"
+    material: BOOK
+
+OriginTech_1:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: cyan_stained_glass_pane
+    name: ' '
+
+OriginTech_item1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-基础材料"
+    material: IRON_INGOT
+
+OriginTech_item2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级材料"
+    material: diamond
+    glow: true
+
+OriginTech_item3:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&x&1&5&f&e&e&2起&x&1&4&f&c&d&8源&x&1&3&f&a&c&e工&x&1&2&f&8&c&3艺 &x&1&1&f&7&b&9- &x&1&0&f&5&a&f终&x&0&f&f&3&a&4极&x&0&e&f&1&9&a材&x&0&d&e&f&9&0料"
+    material: nether_star
+    glow: true
+
+OriginTech_2:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_3:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_4:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_5:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_JNC:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-纪念册"
+    material: writable_book
+
+OriginTech_7:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: cyan_stained_glass_pane
+    name: ' '
+
+OriginTech_machine1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-基础机器"
+    material: furnace
+
+OriginTech_SCQ1:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&a起源工艺-基础材料生成器"
+    material: campfire
+
+OriginTech_SCQ_MC:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&a起源工艺-维度工艺"
+    material: soul_campfire
+
+OriginTech_JC:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&b起源工艺-集成生产机器"
+    material: blast_furnace
+
+OriginTech_SCQ2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级生成器"
+    material: blast_furnace
+    glow: true
+
+OriginTech_machine2:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-高级机器"
+    material: furnace
+    glow: true
+
+OriginTech_machine3:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&x&1&5&f&e&e&2起&x&1&4&f&c&d&8源&x&1&3&f&a&c&e工&x&1&2&f&8&c&3艺 &x&1&1&f&7&b&9- &x&1&0&f&5&a&f终&x&0&f&f&3&a&4极&x&0&e&f&1&9&a机&x&0&d&e&f&9&0器"
+    material: beacon
+    glow: true
+
+OriginTech_changelog:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    material: paper
+    name: '&x&0&0&f&3&1&8起&x&0&0&f&0&2&f源&x&0&0&e&d&4&6工&x&0&0&e&a&5&c艺 &x&0&0&e&7&7&3- &x&0&0&e&4&8&a更&x&0&0&e&1&a&1新&x&0&0&d&e&b&7日&x&0&0&d&b&c&e志'
+    glow: true
+
+OriginTech_9:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: cyan_stained_glass_pane
+    name: ' '
+
+OriginTech_generators:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&b起源工艺-发电机"
+    material: glowstone
+
+OriginTech_tools:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-工具"
+    material: diamond_pickaxe
+    glow: true
+
+OriginTech_MOMO:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e起源工艺-乱码科技辅助"
+    material: chain_command_block
+    glow: true
+
+OriginTech_supreme:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    material: diamond_block
+    name: '&e起源工艺-至尊研究院辅助'
+    glow: true
+
+OriginTech_LOGI:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&x&d&9&a&f&d&9起&x&d&2&b&3&d&a源&x&c&c&b&7&d&b工&x&c&5&b&c&d&b艺 &x&b&f&c&0&d&c- &x&b&8&c&4&d&d逻&x&b&1&c&8&d&e辑&x&a&b&c&c&d&f辅&x&a&4&d&1&d&f助&x&9&e&d&5&e&0分&x&9&7&d&9&e&1区"
+    material: budding_amethyst
+
+OT_test:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&e测试品"
+    material: gray_stained_glass_pane
+
+OriginTech_12:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_challenge:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    name: "&x&0&7&8&7&e&4起&x&2&0&9&3&e&1源&x&3&9&9&f&d&e工&x&5&2&a&b&d&b艺 &x&6&b&b&6&d&8- &x&8&4&c&2&d&5挑&x&9&d&c&e&d&2战&x&b&6&d&a&c&f线"
+    material: diamond_sword
+
+OriginTech_14:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: cyan_stained_glass_pane
+    name: ' '
+
+OriginTech_FINAL:
+  lateInit: false
+  type: sub
+  parent: OriginTech
+  item:
+    material: grass_block
+    name: '&x&f&9&0&0&6&9起&x&e&a&0&0&7&1源&x&d&b&0&0&7&9工&x&c&c&0&0&8&1艺 &x&b&d&0&0&8&8- &x&a&e&0&0&9&0终&x&9&f&0&0&9&8末 '
+
+OriginTech_16:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_17:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_18:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_19:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_20:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: light_blue_stained_glass_pane
+    name: ' '
+
+OriginTech_21:
+  lateInit: false
+  type: button
+  parent: OriginTech
+  item:
+    material: book
+    name: '&b点击此处打开附属github页面'
+  actions:
+    - "link https://github.com/ty-playerocket/OriginTech"
