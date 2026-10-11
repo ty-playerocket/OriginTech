@@ -1,0 +1,303 @@
+OT_GJB:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&l&a瓜聚变'
+    lore:
+      - '&b经典永流传......'
+      - '&a家里缺电了？要不你就拿这个西瓜去发电吧！'
+      - '&8⇨ &e⚡&7 200000 J 可存储'
+      - '&8⇨ &e⚡&7 144380 J/s'
+    material_type: mc
+    material: melon
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    2:
+      material_type: slimefun
+      material: REFINERY
+      amount: 1
+    3:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    4:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: ELECTRIC_ORE_GRINDER_3
+      amount: 1
+    7:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+    8:
+      material_type: slimefun
+      material: COMBUSTION_REACTOR
+      amount: 1
+    9:
+      material_type: slimefun
+      material: FLUID_PUMP
+      amount: 1
+  capacity: 200000
+  production: 72190
+  fuels:
+    '1':
+      seconds: 14
+      item:
+        material: melon
+        amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+#额外
+OT_LBFDJ:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&l&a牢白发电机'
+    lore:
+      - '&b新时代薯动力发电机'
+      - '&7"一千克土豆可以提供3000r/min的转速"'
+      - '&8⇨ &e⚡&7 160000 J 可存储'
+      - '&8⇨ &e⚡&7 50000 J/s'
+    material_type: skull_hash
+    material: c6d2c07db62c76f0c52f20ab0566f62771582c9901befc287584317a72c8a854
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    2:
+      material_type: mc
+      material: blast_furnace
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_server_MT
+      amount: 1
+  capacity: 160000
+  production: 25000
+  fuels:
+    '1':
+      seconds: 60
+      item:
+        material_type: slimefun
+        material: OT_server_MT
+        amount: 1
+  input: [10,11,12,19,20,21,28,29,30,37,38,39]
+  output: [14,15,16,23,24,25,32,33,34,41,42,43]
+#太阳能系列替换
+OT_MFFDJ:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&6&l低压魔法水晶激发装置'
+    lore:
+      - '&7从末地水晶中获取能量'
+      - '&8⇨ &e⚡&7 1000 J 可存储'
+      - '&8⇨ &e⚡&7 1000 J/s '
+    material: respawn_anchor
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    2:
+      material_type: mc
+      material: end_crystal
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_LHJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_HG
+      amount: 1
+  capacity: 1000
+  production: 500
+  fuels:
+    '1':
+      seconds: 99999999
+      item:
+        material_type: mc
+        material: cobblestone
+        amount: 1
+  input: [ 10,11,12,19,20,21,28,29,30,37,38,39 ]
+  output: [ 14,15,16,23,24,25,32,33,34,41,42,43 ]
+OT_YJFDJ:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&6&l耀金发电机'
+    lore:
+      - '&7从日月光辉中汲取能量'
+      - '&8⇨ &e⚡&7 25000 J 可存储'
+      - '&8⇨ &e⚡&7 25000 J/s '
+    material_type: mc
+    material: glowstone
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    2:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    3:
+      material_type: slimefun
+      material: SOLAR_PANEL
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_YMSJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_YJJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_YMSJ
+      amount: 1
+    8:
+      material_type: slimefun
+      material: ENERGY_REGULATOR
+      amount: 1
+  capacity: 25000
+  production: 12500
+  fuels:
+    '1':
+      seconds: 99999999
+      item:
+        material_type: mc
+        material: cobblestone
+        amount: 1
+  input: [ 10,11,12,19,20,21,28,29,30,37,38,39 ]
+  output: [ 14,15,16,23,24,25,32,33,34,41,42,43 ]
+OT_GAFDJ:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&d&l光暗发电机'
+    lore:
+      - '&7在阴阳平衡中寻找能源'
+      - '&8⇨ &e⚡&7 480000 J 可存储'
+      - '&8⇨ &e⚡&7 240000 J/s '
+    material: white_wool
+  recipe_type: ENHANCED_CRAFTING_TABLE
+  recipe:
+    1:
+      material_type: slimefun
+      material: OT_GCD
+      amount: 1
+    2:
+      material_type: slimefun
+      material: OT_YJFDJ
+      amount: 1
+    3:
+      material_type: slimefun
+      material: OT_HYD
+      amount: 1
+    4:
+      material_type: slimefun
+      material: OT_YJFDJ
+      amount: 1
+    5:
+      material_type: slimefun
+      material: OT_JXJQKJ
+      amount: 1
+    6:
+      material_type: slimefun
+      material: OT_YJFDJ
+      amount: 1
+    7:
+      material_type: slimefun
+      material: OT_HYD
+      amount: 1
+    8:
+      material_type: slimefun
+      material: OT_YJFDJ
+      amount: 1
+    9:
+      material_type: slimefun
+      material: OT_GCD
+      amount: 1
+  capacity: 480000
+  production: 120000
+  fuels:
+    '1':
+      seconds: 99999999
+      item:
+        material_type: mc
+        material: cobblestone
+        amount: 1
+  input: [ 10,11,12,19,20,21,28,29,30,37,38,39 ]
+  output: [ 14,15,16,23,24,25,32,33,34,41,42,43 ]
+OT_ZYFDJ:
+  lateInit: true
+  item_group: OriginTech_generators
+  item:
+    name: '&x&f&3&0&0&1&1终 &x&e&2&0&7&2&e焉 &x&d&1&0&d&4&b发 &x&c&0&1&4&6&8电 &x&a&f&1&a&8&5机'
+    lore:
+      - '&7无尽的能源之海翻滚着'
+      - '&8⇨ &e⚡&7 2 000 000 000 J 可存储'
+      - '&8⇨ &e⚡&7 2 000 000 000 J/s '
+    material: sea_lantern
+  recipe_type: OT_XX_WJZZ
+  capacity: 2000000000
+  production: 1000000000
+  fuels:
+    '1':
+      seconds: 99999999
+      item:
+        material_type: mc
+        material: cobblestone
+        amount: 1
+  input: [ 10,11,12,19,20,21,28,29,30,37,38,39 ]
+  output: [ 14,15,16,23,24,25,32,33,34,41,42,43 ]

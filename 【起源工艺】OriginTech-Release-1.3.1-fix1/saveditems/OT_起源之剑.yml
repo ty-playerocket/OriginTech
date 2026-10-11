@@ -1,0 +1,39 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: DIAMOND_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: ''
+    lore:
+    - ''
+    enchants:
+      LOOT_BONUS_MOBS: 10
+      MENDING: 1
+      DAMAGE_ALL: 255
+      DURABILITY: 255
+    attribute-modifiers:
+      GENERIC_MOVEMENT_SPEED:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 0.5
+        name: '5'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 1
+      GENERIC_MAX_HEALTH:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 150
+        name: '6'
+        slot: HAND
+        uuid: 00000002-0000-0001-0000-000100000008
+        operation: 0
+      GENERIC_ATTACK_DAMAGE:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 256.0
+        name: '7'
+        slot: HAND
+        uuid: 00400302-0000-0001-0000-000100000008
+        operation: 0
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgjgp3YwAAt1YXqRUAAAA=

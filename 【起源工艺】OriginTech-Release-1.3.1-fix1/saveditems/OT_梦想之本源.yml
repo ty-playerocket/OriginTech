@@ -1,0 +1,17 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3465
+  type: GOLDEN_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '[{"text":"1","color":"green","italic":false,"bold":true}]'
+    lore:
+      -
+    enchants:
+      LOOT_BONUS_MOBS: 10
+      MENDING: 1
+      DAMAGE_ALL: 10
+      DURABILITY: 5
+    Unbreakable: true
+    internal: H4sIAAAAAAAA/+NiYOBkYAlJTC/mYGBgYGRgjgp3YwAAt1YXqRUAAAA=

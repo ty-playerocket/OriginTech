@@ -1,0 +1,11 @@
+OT_龙之心:
+  item_group: OriginTech_challenge_material
+  item:
+    name: "{#e9a643}龙{#e68e36}之{#e37628}心"
+    lore:
+      - '&c也可以通过生物研究员获得'
+      - '&x&0&7&8&7&e&4挑&x&3&3&9&c&d&f战&x&5&f&b&1&d&a线   &x&8&a&c&5&d&4材&x&b&6&d&a&c&f料'
+    glow: true
+    material: dragon_egg
+  entity: ender_dragon
+  chance: 100

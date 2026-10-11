@@ -1,0 +1,26 @@
+item:
+  ==: org.bukkit.inventory.ItemStack
+  v: 3955
+  type: IRON_SWORD
+  meta:
+    ==: ItemMeta
+    meta-type: UNSPECIFIC
+    display-name: '{"text":"","extra":["",{"text":"墨工坊","color":"dark_aqua"}],"italic":false}'
+    item-name: '{"text":"","extra":["","铁剑"],"italic":false}'
+    lore:
+    - '{"text":"","extra":["","--------------"],"italic":false,"color":"white"}'
+    - '{"text":"","extra":["","命中时，额外造成30%伤害"],"italic":false,"color":"white"}'
+    - '{"text":"","extra":["","命中时，恢复自身1%生命值和3点饱食度"],"italic":false,"color":"white"}'
+    - '{"text":"","extra":["","--------------"],"italic":false,"color":"white"}'
+    enchants:
+      minecraft:smite: 5
+    attribute-modifiers:
+      minecraft:generic.attack_damage:
+      - ==: org.bukkit.attribute.AttributeModifier
+        amount: 158.0
+        slot: mainhand
+        operation: 0
+        key: minecraft:27ddbc34-2da4-39df-b2d4-93b757895161
+    enchantment-glint-override: true
+    rarity: UNCOMMON
+    max-damage: 4500

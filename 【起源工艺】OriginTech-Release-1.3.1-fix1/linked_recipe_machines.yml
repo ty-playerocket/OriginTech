@@ -1,0 +1,1123 @@
+OT_虚相物质操纵仪:
+  lateInit: false
+  item_group: OriginTech_challenge_machine
+  item:
+    name: '&x&a&f&b&8&d&9虚&x&a&c&b&3&d&a相&x&a&9&a&d&d&c物&x&a&6&a&8&d&d质&x&a&3&a&2&d&e操&x&a&0&9&d&e&0纵&x&9&d&9&7&e&1仪'
+    lore:
+      - '&7不要去想它'
+      - '&b可用配方类型：&x&a&f&b&8&d&9混&x&a&9&a&d&d&c沌&x&a&3&a&2&d&e提&x&9&d&9&7&e&1取'
+      - '&x&0&7&8&7&e&4挑&x&3&3&9&c&d&f战&x&5&f&b&1&d&a线   &x&8&a&c&5&d&4机&x&b&6&d&a&c&f器'
+      - '&8⇨ &e⚡&7 1 000 000 000J 可存储'
+      - '&8⇨ &e⚡&7 50 000 000 J/s'
+    material_type: skull_hash
+    material: 9086bb2fd386c85aaa2810cd2f4bb404d9fd29e33a0f30beaeed9f8849734807
+  speed: 1
+  recipe_type: OT_XX_YSZS
+  capacity: 1000000000
+  energyPerCraft: 25000000
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_HG
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_魂钢奇点
+          amount: 1
+          slot: 31
+    '2':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_YSD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_蕴生奇点
+          amount: 1
+          slot: 31
+    '3':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_YJD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_耀金奇点
+          amount: 1
+          slot: 31
+    '4':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_YMSJ
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_蕴魔奇点
+          amount: 1
+          slot: 31
+    '5':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_GCD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_光炽奇点
+          amount: 1
+          slot: 31
+    '6':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_HYD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_寒渊奇点
+          amount: 1
+          slot: 31
+    '7':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_EJD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_厄劫奇点
+          amount: 1
+          slot: 31
+    '8':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_HXHJD
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_回响奇点
+          amount: 1
+          slot: 31
+    '9':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 14
+        6:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 15
+        7:
+          material_type: slimefun
+          material: OT_起源锭
+          amount: 64
+          slot: 16
+      output:
+        1:
+          material_type: slimefun
+          material: OT_起源奇点
+          amount: 1
+          slot: 31
+  input: [ 10, 11, 12, 13, 14, 15, 16 ]
+  output: [ 31 ]
+OT_装配线1:
+  id_alias: OT_装配线
+  lateInit: false
+  item_group: OriginTech_challenge_machine
+  item:
+    name: '{#a6f2e4}装{#53eee7}配{#00e9e9}线'
+    lore:
+      - '&7我保留了一部分设定，这样你才知道你玩的是装配线'
+      - '&7物品必须有序输入'
+      - '&b可用配方类型：{#a6f2e4}序{#6fefe6}列{#37ece7}装{#00e9e9}配'
+      - '&x&0&7&8&7&e&4挑&x&3&3&9&c&d&f战&x&5&f&b&1&d&a线   &x&8&a&c&5&d&4机&x&b&6&d&a&c&f器'
+      - '&8⇨ &e⚡&7 1 000 000 000J 可存储'
+      - '&8⇨ &e⚡&7 50 000 000 J/s'
+    material_type: skull_hash
+    material: b3a1f0dfbf466412bc1eff65f8e8faa39712d47bf9fcc07a6a64ff80febcc9c6
+  speed: 1
+  recipe_type: OT_XX_YSZS
+  capacity: 1000000000
+  energyPerCraft: 25000000
+  register:
+    unfinished: false
+    logitech_stackable: false
+  recipes:
+    '1':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_DLB_1
+          amount: 4
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_DLB_2
+          amount: 4
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_DLB_3
+          amount: 4
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_DLB_4
+          amount: 4
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_时空
+          amount: 64
+          slot: 19
+        6:
+          material_type: slimefun
+          material: MOMOTECH_FINAL_ITEM
+          amount: 1
+          slot: 20
+        7:
+          material_type: slimefun
+          material: OT_中子锭
+          amount: 4
+          slot: 21
+        8:
+          material_type: slimefun
+          material: OT_脉搏锭
+          amount: 2
+          slot: 22
+        9:
+          material_type: slimefun
+          material: OT_辉光锭
+          amount: 2
+          slot: 28
+        10:
+          material_type: slimefun
+          material: OT_三界锭
+          amount: 2
+          slot: 29
+        11:
+          material_type: slimefun
+          material: OT_混沌锭
+          amount: 2
+          slot: 30
+        12:
+          material_type: slimefun
+          material: OT_奇迹之锭
+          amount: 2
+          slot: 31
+        13:
+          material_type: slimefun
+          material: OT_PLC_1
+          amount: 64
+          slot: 37
+        14:
+          material_type: slimefun
+          material: OT_PLC_2
+          amount: 64
+          slot: 38
+        15:
+          material_type: slimefun
+          material: OT_PLC_3
+          amount: 64
+          slot: 39
+        16:
+          material_type: slimefun
+          material: OT_PLC_4
+          amount: 64
+          slot: 40
+      output:
+        1:
+          material_type: slimefun
+          material: OT_DLB_5
+          amount: 1
+          slot: 25
+    '2':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_ZYFDJ
+          amount: 4
+          slot: 10
+        2:
+          material_type: slimefun
+          material: INFINITY_CAPACITOR
+          amount: 16
+          slot: 11
+        3:
+          material_type: slimefun
+          material: INFINITY_CAPACITOR
+          amount: 16
+          slot: 12
+        4:
+          material_type: slimefun
+          material: INFINITY_CAPACITOR
+          amount: 16
+          slot: 13
+        5:
+          material_type: slimefun
+          material: LOGITECH_ENERGY_AMPLIFIER
+          amount: 4
+          slot: 19
+        6:
+          material_type: slimefun
+          material: LOGITECH_ENERGY_AMPLIFIER
+          amount: 4
+          slot: 20
+        7:
+          material_type: slimefun
+          material: LOGITECH_ENERGY_AMPLIFIER
+          amount: 4
+          slot: 21
+        8:
+          material_type: slimefun
+          material: LOGITECH_ENERGY_AMPLIFIER
+          amount: 4
+          slot: 22
+        9:
+          material_type: slimefun
+          material: OT_起源奇点
+          amount: 1
+          slot: 28
+        10:
+          material_type: slimefun
+          material: OT_起源奇点
+          amount: 1
+          slot: 29
+        11:
+          material_type: slimefun
+          material: OT_起源奇点
+          amount: 1
+          slot: 30
+        12:
+          material_type: slimefun
+          material: OT_起源奇点
+          amount: 1
+          slot: 31
+        13:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 4
+          slot: 37
+        14:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 4
+          slot: 38
+        15:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 4
+          slot: 39
+        16:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 4
+          slot: 40
+      output:
+        1:
+          material_type: slimefun
+          material: OT_创造电池
+          amount: 1
+          slot: 25
+    '3':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 13
+        5:
+          material_type: slimefun
+          material: LOGITECH_CHUNK_CHARGER
+          amount: 1
+          slot: 19
+        6:
+          material_type: slimefun
+          material: LOGITECH_CHUNK_CHARGER
+          amount: 1
+          slot: 20
+        7:
+          material_type: slimefun
+          material: LOGITECH_CHUNK_CHARGER
+          amount: 1
+          slot: 21
+        8:
+          material_type: slimefun
+          material: LOGITECH_CHUNK_CHARGER
+          amount: 1
+          slot: 22
+        9:
+          material_type: slimefun
+          material: OT_创造电池
+          amount: 1
+          slot: 28
+        10:
+          material_type: slimefun
+          material: OT_创造电池
+          amount: 1
+          slot: 29
+        11:
+          material_type: slimefun
+          material: OT_DLB_5
+          amount: 1
+          slot: 30
+        12:
+          material_type: slimefun
+          material: OT_DLB_5
+          amount: 1
+          slot: 31
+        13:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 37
+        14:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 38
+        15:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 39
+        16:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 40
+      output:
+        1:
+          material_type: slimefun
+          material: _FINALTECH_MATRIX_GENERATOR
+          amount: 1
+          slot: 25
+    '4':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_中子锭
+          amount: 4
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_RHHJB2
+          amount: 16
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_寰宇织物
+          amount: 3
+          slot: 13
+      output:
+        1:
+          material_type: slimefun
+          material: OT_空罐
+          amount: 1
+          slot: 25
+    '5':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 19
+        6:
+          material_type: slimefun
+          material: OT_非有锭
+          amount: 1
+          slot: 20
+        7:
+          material_type: slimefun
+          material: OT_非有锭
+          amount: 1
+          slot: 21
+        8:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 22
+        9:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 28
+        10:
+          material_type: slimefun
+          material: OT_非有锭
+          amount: 1
+          slot: 29
+        11:
+          material_type: slimefun
+          material: OT_非有锭
+          amount: 1
+          slot: 30
+        12:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 31
+        13:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 37
+        14:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 38
+        15:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 39
+        16:
+          material_type: slimefun
+          material: OT_引力发生器
+          amount: 1
+          slot: 40
+      output:
+        1:
+          material_type: slimefun
+          material: OT_球状形态力场
+          amount: 1
+          slot: 25
+    '6':
+      seconds: 0
+      input:
+        1:
+          material_type: slimefun
+          material: OT_鸿蒙之眼
+          amount: 4
+          slot: 10
+        2:
+          material_type: slimefun
+          material: OT_星团解离者_MOMO
+          amount: 64
+          slot: 11
+        3:
+          material_type: slimefun
+          material: OT_星团解离者_MOMO
+          amount: 64
+          slot: 12
+        4:
+          material_type: slimefun
+          material: OT_星团解离者_MOMO
+          amount: 64
+          slot: 13
+        5:
+          material_type: slimefun
+          material: OT_星团解离者_MOMO
+          amount: 64
+          slot: 19
+        6:
+          material_type: slimefun
+          material: OT_CJDSY_SCQ
+          amount: 12
+          slot: 20
+        7:
+          material_type: slimefun
+          material: OT_YYCKJ_3
+          amount: 20
+          slot: 21
+        8:
+          material_type: slimefun
+          material: LOGITECH_SMELTRY
+          amount: 1
+          slot: 22
+        9:
+          material_type: slimefun
+          material: OT_LZH
+          amount: 1
+          slot: 28
+        10:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 16
+          slot: 29
+      output:
+        1:
+          material_type: slimefun
+          material: OT_规则锭生成器
+          amount: 1
+          slot: 25
+  input: [ 10,11,12,13, 19,20,21,22, 28,29,30,31, 37,38,39,40 ]
+  output: [ 25 ]
+OT_纯能合成器:
+  lateInit: false
+  item_group: OriginTech_challenge_machine
+  item:
+    name: '{#505050}纯{#686869}能{#7f8181}合{#97999a}成{#aeb1b2}器'
+    lore:
+      - '{#f2efef}无{#eeecec}法{#eae8e8}想{#e7e5e5}象{#e3e1e1}的{#dfdede}巨{#dbdadb}量{#d8d7d7}能{#d4d3d4}量{#d0d0d1}竟{#cccdcd}然{#c8c9ca}凝{#c5c6c6}聚{#c1c2c3}成{#bdbfc0}了{#b9bbbc}实{#b6b8b9}体{#b2b4b5}物{#aeb1b2}质'
+      - '&x&0&7&8&7&e&4挑&x&3&3&9&c&d&f战&x&5&f&b&1&d&a线   &x&8&a&c&5&d&4机&x&b&6&d&a&c&f器'
+      - '&8⇨ &e⚡&7 1 000 000 000J 可存储'
+      - '&8⇨ &e⚡&7 50 000 000 J/s'
+    material_type: skull_hash
+    material: 109671903d70d8a1d5d9bcd58241d5dc1a23f137d253c282561976a6851283
+  speed: 1
+  recipe_type: OT_XX_YSZS
+  capacity: 1000000000
+  energyPerCraft: 25000000
+  recipes:
+    '1':
+      seconds: 15
+      input:
+        1:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 0
+        2:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 1
+        3:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 2
+        4:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 3
+        5:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 4
+        6:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 5
+        7:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 6
+        8:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 7
+        9:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 8
+        10:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 9
+        11:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 10
+        12:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 11
+        13:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 12
+        14:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 13
+        15:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 14
+        16:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 15
+        17:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 16
+        18:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 17
+        19:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 18
+        20:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 19
+        21:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 20
+        22:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 21
+        23:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 22
+        24:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 23
+        25:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 24
+        26:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 25
+        27:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 26
+        28:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 27
+        29:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 28
+        30:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 29
+        31:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 30
+        32:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 31
+        33:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 32
+        34:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 33
+        35:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 34
+        36:
+          material_type: slimefun
+          material: OT_能量奇点
+          amount: 64
+          slot: 35
+      output:
+        1:
+          material_type: slimefun
+          material: OT_能量尘埃
+          amount: 1
+          chance: 1
+          slot: 49
+    '2':
+      seconds: 30
+      input:
+        1:
+          material_type: slimefun
+          material: OT_能量尘埃
+          amount: 64
+          slot: 0
+        2:
+          material_type: slimefun
+          material: OT_能量尘埃
+          amount: 64
+          slot: 1
+        3:
+          material_type: slimefun
+          material: OT_能量尘埃
+          amount: 64
+          slot: 2
+        4:
+          material_type: slimefun
+          material: OT_能量尘埃
+          amount: 64
+          slot: 3
+      output:
+        1:
+          material_type: slimefun
+          material: OT_能量锭
+          amount: 1
+          slot: 49
+  input: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35]
+  output: [ 49 ]
